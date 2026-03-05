@@ -1,0 +1,236 @@
+=== LEAD TYPES ===
+{"id":1,"name":"Health","created_at":"2023-08-11T12:14:59.000000Z","updated_at":"2023-08-11T12:14:59.000000Z"}
+{"id":2,"name":"Group","created_at":"2023-08-11T12:14:59.000000Z","updated_at":"2023-08-11T12:14:59.000000Z"}
+{"id":3,"name":"Auto","created_at":"2023-08-11T12:14:59.000000Z","updated_at":"2023-08-11T12:14:59.000000Z"}
+{"id":4,"name":"Life","created_at":"2023-08-11T12:14:59.000000Z","updated_at":"2023-08-11T12:14:59.000000Z"}
+{"id":5,"name":"Medicare","created_at":"2023-08-11T12:14:59.000000Z","updated_at":"2023-08-11T12:14:59.000000Z"}
+
+=== STARTING POINTS ===
+{"id":"X|0","name":"Assign to Me"}
+{"id":"Y|0","name":"Assign to Me With Text Message Notification"}
+{"id":"B|183","name":"Bucket: ***HST Aged Leads"}
+{"id":"B|184","name":"Bucket: Natalie Ross Pulled Leads"}
+{"id":"B|185","name":"Bucket: ***Compass Aged"}
+{"id":"B|293","name":"Bucket: ***Fresh Lead"}
+{"id":"B|294","name":"Bucket: B Leads"}
+{"id":"B|295","name":"Bucket: ***JK Exclusive Leads"}
+{"id":"B|296","name":"Bucket: Dixon Aged"}
+{"id":"B|304","name":"Bucket: Dobson Exclusive"}
+{"id":"B|306","name":"Bucket: Team Gulf Coast"}
+{"id":"B|311","name":"Bucket: Stansfield Leads"}
+{"id":"B|343","name":"Bucket: Natalie Ross - Aged Leads"}
+{"id":"B|385","name":"Bucket: Trucking Companies.Bratlie"}
+{"id":"B|537","name":"Bucket: ***Compass Premier"}
+{"id":"B|552","name":"Bucket: ***Compass Telemarketed Leads"}
+{"id":"B|553","name":"Bucket: ***Compass Medicare"}
+{"id":"B|586","name":"Bucket: ***Premier ACA Requests"}
+{"id":"B|588","name":"Bucket: Kirsch Team"}
+{"id":"B|598","name":"Bucket: ***Compass Group Leads"}
+{"id":"B|615","name":"Bucket: ***. CHC Group Leads AGED"}
+{"id":"B|897","name":"Bucket: ***CHC A+"}
+{"id":"B|898","name":"Bucket: ***CHC A+ Shared"}
+{"id":"B|1318","name":"Bucket: CHC Spanish Leads"}
+{"id":"B|1329","name":"Bucket: *** Realtors"}
+{"id":"B|1587","name":"Bucket: Defunct Leads"}
+{"id":"R|25","name":"Round Robin Group: Compass Funnel Leads"}
+{"id":"R|26","name":"Round Robin Group: Benepath 2.0"}
+{"id":"R|27","name":"Round Robin Group: Jessi Park - Round Robin"}
+{"id":"R|28","name":"Round Robin Group: AI Lead Group"}
+{"id":"R|29","name":"Round Robin Group: Krivelow Benepath"}
+{"id":"R|30","name":"Round Robin Group: Smart Leads"}
+{"id":"R|31","name":"Round Robin Group: MKG Exclusive"}
+{"id":"R|32","name":"Round Robin Group: Nomadacare"}
+{"id":"R|33","name":"Round Robin Group: Premier ACA Requests"}
+{"id":"R|45","name":"Round Robin Group: Harvest Exclusive RR"}
+{"id":"R|47","name":"Round Robin Group: CHC A+"}
+{"id":"R|48","name":"Round Robin Group: CHC A+ Shared"}
+
+=== LANGUAGES ===
+{"id":1,"name":"English","created_at":"2025-02-08T03:25:27.000000Z","updated_at":"2025-02-08T03:25:27.000000Z"}
+{"id":2,"name":"Spanish","created_at":"2025-02-08T03:25:27.000000Z","updated_at":"2025-02-08T03:25:27.000000Z"}
+{"id":3,"name":"Polish","created_at":"2025-02-08T03:25:27.000000Z","updated_at":"2025-02-08T03:25:27.000000Z"}
+{"id":4,"name":"Russian","created_at":"2025-02-08T03:25:27.000000Z","updated_at":"2025-02-08T03:25:27.000000Z"}
+{"id":5,"name":"Ukrainian","created_at":"2025-02-08T03:25:27.000000Z","updated_at":"2025-02-08T03:25:27.000000Z"}
+{"id":6,"name":"Czech","created_at":"2025-02-08T03:25:27.000000Z","updated_at":"2025-02-08T03:25:27.000000Z"}
+{"id":7,"name":"Greek","created_at":"2025-02-08T03:25:27.000000Z","updated_at":"2025-02-08T03:25:27.000000Z"}
+{"id":8,"name":"Chinese","created_at":"2025-02-08T03:25:27.000000Z","updated_at":"2025-02-08T03:25:27.000000Z"}
+
+=== TIMEZONES ===
+{"value":1,"label":"Eastern","timezone_name":"America/New_York","offset":"-5"}
+{"value":2,"label":"Central","timezone_name":"America/Chicago","offset":"-6"}
+{"value":3,"label":"Mountain","timezone_name":"America/Denver","offset":"-7"}
+{"value":7,"label":"Mountain (No DST)","timezone_name":"America/Phoenix","offset":"-7"}
+{"value":4,"label":"Pacific","timezone_name":"America/Los_Angeles","offset":"-8"}
+{"value":6,"label":"Alaska Standard Time","timezone_name":"America/Anchorage","offset":"-9"}
+{"value":5,"label":"Hawaii","timezone_name":"Pacific/Honolulu","offset":"-10"}
+
+=== CALENDAR COLORS (first 5) ===
+{"id":2,"value":"blue","label":"Blue","created_at":"2023-08-18T13:47:41.000000Z","updated_at":"2023-08-18T13:47:41.000000Z"}
+{"id":3,"value":"green","label":"Green","created_at":"2023-08-18T13:47:41.000000Z","updated_at":"2023-08-18T13:47:41.000000Z"}
+{"id":4,"value":"yellow","label":"Yellow","created_at":"2023-08-18T13:47:41.000000Z","updated_at":"2023-08-18T13:47:41.000000Z"}
+{"id":5,"value":"red","label":"Red","created_at":"2023-08-18T13:47:41.000000Z","updated_at":"2023-08-18T13:47:41.000000Z"}
+{"id":6,"value":"orange","label":"Orange","created_at":"2023-08-18T13:47:41.000000Z","updated_at":"2023-08-18T13:47:41.000000Z"}
+total colors: 18
+
+=== LEAD SEARCH PAGE SPECIFIC ===
+search_layout | null
+leads | object{1}: data
+states | array[52]
+new_lead_statuses | array[2]
+all_statuses | array[8]
+all_statuses_recruiting | array[7]
+lead_custom_tags | array[0]
+lead_sources | array[1]
+dead_reasons | array[3]
+filtered_by | array[0]
+pagination_length | number = 10
+sources | array[1]
+agents | array[1021]
+carriers | array[3]
+products | array[62]
+searchExportVisible | boolean = false
+allowSearchAgency | boolean = false
+parentLeads | array[0]
+lead_languages | array[8]
+
+=== PRODUCTS BY CATEGORY ===
+Group Health (18): LIFEX - 2500 Classic, LIFEX - 3500 Classic, LIFEX - 3500 HSA, LIFEX - 4900+ Classic, LIFEX - 5000 HSA...
+Dental/Vision (8): LIFEX - Humana Dental, LIFEX - Humana Vision, Solstice PPO, Solstice PPO w/ Vision, Solstice DHMO w/ Vision...
+Major Medical (25): PRIME ENROLL - Copay 4500, PRIME ENROLL - Copay 3500, PRIME ENROLL - HSA 3500, PRIME ENROLL - Bronze Plan, PRIME ENROLL - Trident MVP...
+MEC (5): PRIME ENROLL - MVP Basic, PRIME ENROLL - MVP Value, PRIME ENROLL - MVP Advantage, PRIME ENROLL - MEC Classic, PRIME ENROLL - MEC Choice
+Accident (2): BRECKPOINT ACCIDENT 5K, BRECKPOINT ACCIDENT 10K
+Critical Illness (2): BRECKPOINT CRITICAL ILLNESS 10K, BRECKPOINT CRITICAL ILLNESS 20K
+Fixed Benefit (1): ENROLL PRIME - Med Performance
+Prescription (1): TransparentPrice RX
+
+=== ALL CARRIER NAMES ===
+id=3215 carrier_id=477 name=LIFEX RESEARCH CORP
+id=1618 carrier_id=370 name=ENROLL PRIME
+id=2671 carrier_id=438 name=TransparentPrice RX
+
+lead_sources count: 1
+
+=== NEW LEAD STATUSES (from leads-create) ===
+{"id":1,"name":"Uncontacted","logical_order":null,"created_at":"2023-08-11T12:14:59.000000Z","updated_at":"2023-08-11T12:14:59.000000Z","lead_category":"commercial","button_label":"Uncontacted"}
+{"id":2,"name":"Contacted","logical_order":null,"created_at":"2023-08-11T12:14:59.000000Z","updated_at":"2023-08-11T12:14:59.000000Z","lead_category":"commercial","button_label":"Contacted"}
+
+=== AUTOMATION SAMPLES ===
+{"id":19,"agency_id":217,"name":"Expiring Policy Notification","is_ready":true,"is_active":true,"is_agency":true,"can_update":false}
+
+=== TEXT TEMPLATES ===
+leadCategory | string = commercial
+templates | object{3}: data, links, meta
+  data[0] keys: id, type, user_id, agency_id, name, message, location, file_media, created_at, updated_at, legacy_id, legacy_migration_at, lead_category
+can_edit | boolean = true
+search | null
+
+=== VOICEMAIL SCRIPTS ===
+leadCategory | string = commercial
+scripts | object{3}: data, links, meta
+  data[0] keys: id, user_id, is_agency, name
+search | null
+
+=== XHR INERTIA RESPONSES ===
+keys: /dashboard, /buckets, /commission-statements
+sample: {"/dashboard":{"component":"Dashboard","props":{"unreadNotifications":[],"invalidSmtpCredentialsNotification":null},"url":"/dashboard","version":"da3111b695abe32b08e2ac4ed8e299fc"},"/buckets":{"component":"AgencyBuckets/Index","props":{"buckets":{"data":[],"links":{"first":"https://apps.topbrokercrm.com/buckets?page=1","last":"https://apps.topbrokercrm.com/buckets?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":null,"last_page":1,"links":[{"url":null,"label":"&laquo; Previous","
+
+=== MARKETPLACE ENTRY DETAIL ===
+  id: number=11881
+  rr_group_id: number=31
+  user_id: number=8359
+  state_id: null
+  weekly_cap: number=0
+  daily_cap: number=0
+  override_actsched_id: null
+  override_source_id: null
+  source_label_overide: null
+  lead_owner_price: number=19
+  old_weekly_cap: number=0
+  old_daily_cap: number=0
+  bucket_id: null
+  created_at: string=2025-09-10T21:17:06.000000Z
+  updated_at: string=2025-09-10T21:17:06.000000Z
+  states_used: string=lead_marketplace_states
+  is_active: number=1
+  hide_from_lead_programs: number=0
+  legacy_id: null
+  legacy_migration_at: null
+  round_robin_group: {"id":31,"user_id":4729,"agency_id":217,"rr_group_name":"MKG Exclusive","overflow_label":null,"overf
+
+=== PURCHASE BUCKET ACCESS SAMPLE ===
+{
+  "id": 74831,
+  "bucket_id": 293,
+  "user_id": 8359,
+  "daily_limit": 50,
+  "created_at": "2025-09-10T21:17:05.000000Z",
+  "updated_at": "2025-09-10T21:17:05.000000Z",
+  "bucket": {
+    "id": 293,
+    "user_id": 4729,
+    "is_agency": 1,
+    "agency_id": 217,
+    "name": "***Fresh Lead",
+    "type": "0",
+    "distribution_per_hour": 0,
+    "distribution_method": "S",
+    "selling_price": 0,
+    "allow_transfer": 0,
+    "tooltip": "",
+    "click_to_dial_script": "",
+    "hours_until_stale": 0,
+    "action_on_stale": "0|0",
+    "deleted_at": null,
+    "created_at": "2024-01-26T23:29:26.000000Z",
+    "updated_at": "2024-01-29T18:19:58.000000Z",
+    "delayed_dist_rrg_id": null,
+    "new_agents_daily_limit": 50,
+    "legacy_id": 105,
+    "legacy_migration_at": "2024-01-26 18:24:52",
+    "stale_lead_action": null,
+    "stale_lead_action_bucket_id": null,
+    "stale_lead_action_user_id": null,
+    "stale_lead_action_rrg_id": null,
+    "available_leads_count": 0,
+    "purchased_leads_today": 0
+  }
+}
+
+=== CLICK TO DIAL BUCKET ACCESS SAMPLE ===
+{
+  "id": 74829,
+  "bucket_id": 183,
+  "user_id": 8359,
+  "daily_limit": 50,
+  "created_at": "2025-09-10T21:17:05.000000Z",
+  "updated_at": "2025-09-10T21:17:05.000000Z",
+  "bucket": {
+    "id": 183,
+    "user_id": 4729,
+    "is_agency": 1,
+    "agency_id": 217,
+    "name": "***HST Aged Leads",
+    "type": "1",
+    "distribution_per_hour": 0,
+    "distribution_method": "S",
+    "selling_price": 0,
+    "allow_transfer": 0,
+    "tooltip": null,
+    "click_to_dial_script": null,
+    "hours_until_stale": 0,
+    "action_on_stale": "0|0",
+    "deleted_at": null,
+    "created_at": "2024-01-26T23:29:26.000000Z",
+    "updated_at": "2025-05-23T15:19:09.000000Z",
+    "delayed_dist_rrg_id": null,
+    "new_agents_daily_limit": 50,
+    "legacy_id": 106,
+    "legacy_migration_at": "2024-01-26 18:24:52",
+    "stale_lead_action": null,
+    "stale_lead_action_bucket_id": null,
+    "stale_lead_action_user_id": null,
+    "stale_lead_action_rrg_id": null,
+    "available_leads_count": 0,
+    "purchased_leads_today": 0
+  }
+}

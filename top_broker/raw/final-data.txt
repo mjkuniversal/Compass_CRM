@@ -1,0 +1,96 @@
+=== TEXT INBOX DETAIL ===
+textInboxes.data length: 0 (empty)
+
+messages keys: data
+messages.data length: 0
+
+=== BUCKET FIELDS (from text-inbox.json) ===
+keys: id, user_id, is_agency, agency_id, name, type, distribution_per_hour, distribution_method, selling_price, allow_transfer, tooltip, click_to_dial_script, hours_until_stale, action_on_stale, deleted_at, created_at, updated_at, delayed_dist_rrg_id, new_agents_daily_limit, legacy_id, legacy_migration_at, stale_lead_action, stale_lead_action_bucket_id, stale_lead_action_user_id, stale_lead_action_rrg_id
+  id: number = 183
+  user_id: number = 4729
+  is_agency: number = 1
+  agency_id: number = 217
+  name: string = ***HST Aged Leads
+  type: string = 1
+  distribution_per_hour: number = 0
+  distribution_method: string = S
+  selling_price: number = 0
+  allow_transfer: number = 0
+  tooltip: null
+  click_to_dial_script: null
+  hours_until_stale: number = 0
+  action_on_stale: string = 0|0
+  deleted_at: null
+  created_at: string = 2024-01-26T23:29:26.000000Z
+  updated_at: string = 2025-05-23T15:19:09.000000Z
+  delayed_dist_rrg_id: null
+  new_agents_daily_limit: number = 50
+  legacy_id: number = 106
+  legacy_migration_at: string = 2024-01-26 18:24:52
+  stale_lead_action: null
+  stale_lead_action_bucket_id: null
+  stale_lead_action_user_id: null
+  stale_lead_action_rrg_id: null
+
+=== ROUND ROBIN GROUP FIELDS (from text-inbox.json) ===
+keys: id, user_id, agency_id, rr_group_name, overflow_label, overflow_options, overflow_bucket_id, overflow_rrg_id, overflow_user_id, initial_action_timeframe, lookback, credit_bad_phones, created_at, updated_at, legacy_id, legacy_migration_at, auto_add_new_agents_enabled, auto_add_new_agents_weekly_cap, auto_add_new_agents_daily_cap, auto_add_new_agents_cost_per_lead
+  id: number = 25
+  user_id: number = 4729
+  agency_id: number = 217
+  rr_group_name: string = Compass Funnel Leads
+  overflow_label: string = 
+  overflow_options: string = B
+  overflow_bucket_id: number = 295
+  overflow_rrg_id: null
+  overflow_user_id: null
+  initial_action_timeframe: number = 120
+  lookback: string = weekSF
+  credit_bad_phones: number = 1
+  created_at: string = 2024-01-26T23:29:26.000000Z
+  updated_at: string = 2024-01-26T23:29:28.000000Z
+  legacy_id: number = 10
+  legacy_migration_at: string = 2024-01-26 18:24:52
+  auto_add_new_agents_enabled: number = 0
+  auto_add_new_agents_weekly_cap: number = 0
+  auto_add_new_agents_daily_cap: number = 0
+  auto_add_new_agents_cost_per_lead: number = 0
+
+=== COMMISSION STATEMENT FILTERED_BY ===
+{
+  "from": null,
+  "to": null,
+  "year": 2026,
+  "include_personal_production": false,
+  "chart_show_team_overrides": "N",
+  "chart_show_career": "N",
+  "agent_selected": null
+}
+
+=== BALANCE MANAGEMENT LOW BALANCE SETTINGS ===
+data: {"low_balance_threshold":null,"notify_low_balance":0}
+
+=== BALANCE MANAGEMENT AUTOREPLENISH ===
+data: {"autoreplenish_authorized":0,"autoreplenish_amount":null,"autoreplenish_balance_threshold":null,"autoreplenish_max_daily_amount":null}
+
+=== BALANCE MANAGEMENT TRANSFERS ===
+transfers data: {"data":[]}
+
+=== LEAD FORMS ===
+leadTypes | array[5] keys: id, name, created_at, updated_at
+leadForms | array[5] keys: id, agency_id, user_id, name, lead_type_id, is_agency, script, is_active, legacy_id, legacy_migration_at, created_at, updated_at, user, submissions
+userActiveForms | array[0]
+
+=== CUSTOM TAGS ===
+leadCategory | string = commercial
+customTags | object{3}: data, links, meta
+search | null
+
+=== EMAIL CAMPAIGNS ===
+campaigns | object{3}: data, links, meta
+filtered_by | object{2}: search, status
+primaryMailerSelected | boolean = false
+
+=== AUTORESPONDERS ===
+sequences | object{1}: data
+selectedSequence | null
+autoresponderSequenceMessages | object{1}: data

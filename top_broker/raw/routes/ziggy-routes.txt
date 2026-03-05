@@ -1,0 +1,1275 @@
+GET,HEAD     /action-schedule-maps/create
+DELETE       /action-schedule-maps/{action_schedule_map} [action_schedule_map]
+GET,HEAD     /action-schedule-maps/{action_schedule_map}/edit [action_schedule_map]
+GET,HEAD     /action-schedule-maps
+GET,HEAD     /action-schedule-maps/{action_schedule_map} [action_schedule_map]
+POST         /action-schedule-maps
+PUT,PATCH    /action-schedule-maps/{action_schedule_map} [action_schedule_map]
+POST         /action-schedules/{actionSchedule}/copy [actionSchedule]
+GET,HEAD     /action-schedules/create
+DELETE       /action-schedules/{action_schedule} [action_schedule]
+GET,HEAD     /action-schedules/{action_schedule}/edit [action_schedule]
+GET,HEAD     /action-schedules
+GET,HEAD     /action-schedules/{action_schedule} [action_schedule]
+POST         /action-schedules
+POST         /action-schedules/{actionSchedule}/toggle-active [actionSchedule]
+PUT,PATCH    /action-schedules/{action_schedule} [action_schedule]
+GET,HEAD     /actions/create
+DELETE       /actions/{action} [action]
+GET,HEAD     /actions/{action}/edit [action]
+GET,HEAD     /actions
+GET,HEAD     /actions/{action} [action]
+POST         /actions
+POST         /actions/{action}/toggle-active [action]
+PUT,PATCH    /actions/{action} [action]
+GET,HEAD     /admin/commission-statements/create
+GET,HEAD     /admin/commission-statements/{commissionStatement}/update [commissionStatement]
+GET,HEAD     /admin/commission-statements/{commissionStatement}/exportCsv [commissionStatement]
+POST         /admin/commission-statements/{user}/files [user]
+GET,HEAD     /admin/commission-statements
+GET,HEAD     /admin/commission-statements/{commissionStatement}/overrides-detail [commissionStatement]
+GET,HEAD     /admin/commission-statements/{commissionStatement}/personal-production-detail [commissionStatement]
+POST         /admin/commission-statements/{commissionStatement}/publish [commissionStatement]
+POST         /admin/commission-statements
+GET,HEAD     /admin/commission-statements/{commissionStatement}/summary [commissionStatement]
+POST         /admin/commission-statements/{commissionStatement}/update [commissionStatement]
+POST         /admin/commission-statements/agents/excluded-pa-ids/delete
+GET,HEAD     /admin/commission-statements/agents/excluded-pa-ids
+POST         /admin/commission-statements/agents/excluded-pa-ids
+GET,HEAD     /admin/commission-statements/agents
+POST         /admin/commission-statements/update-visible-agencies
+POST         /admin/commission-statements/agents/upload-wa-ids
+GET,HEAD     /admin/commission-statements/agents/upload-wa-ids
+POST         /admin/commission-statements/{user}/carrier-agent-id/delete [user]
+POST         /admin/commission-statements/{user}/carrier-agent-id [user]
+GET,HEAD     /admin/commission-statements/carriers
+POST         /admin/commission-statements/{commissionStatement}/remove-scheduled-publish [commissionStatement]
+POST         /admin/commission-statements/{commissionStatement}/schedule-publish [commissionStatement]
+POST         /admin/commission-statements/agents/wa-ids/delete
+POST         /admin/commission-statements/agents/wa-ids
+DELETE       /agencies/{agency}/billing-info/{billing_info} [agency, billing_info]
+GET,HEAD     /agencies/{agency}/billing-info [agency]
+GET,HEAD     /agencies/{agency}/billing-info/{billing_info} [agency, billing_info]
+POST         /agencies/{agency}/billing-info [agency]
+PUT,PATCH    /agencies/{agency}/billing-info/{billing_info} [agency, billing_info]
+GET,HEAD     /agencies/{agency}/billing-profiles/create [agency]
+DELETE       /agencies/{agency}/billing-profiles/{billing_profile} [agency, billing_profile]
+GET,HEAD     /agencies/{agency}/billing-profiles/{billing_profile}/edit [agency, billing_profile]
+GET,HEAD     /agencies/{agency}/billing-profiles [agency]
+GET,HEAD     /agencies/{agency}/billing-profiles/{billing_profile} [agency, billing_profile]
+POST         /agencies/{agency}/billing-profiles [agency]
+PUT,PATCH    /agencies/{agency}/billing-profiles/{billing_profile} [agency, billing_profile]
+DELETE       /agencies/{agency}/bookmarks/{bookmark} [agency, bookmark]
+GET,HEAD     /agencies/{agency}/bookmarks [agency]
+GET,HEAD     /agencies/{agency}/bookmarks/{bookmark} [agency, bookmark]
+POST         /agencies/{agency}/bookmarks [agency]
+PUT,PATCH    /agencies/{agency}/bookmarks/{bookmark} [agency, bookmark]
+DELETE       /agencies/{agency}/commissions-calendar-pdf [agency]
+POST         /agencies/{agency}/commissions-calendar-pdf [agency]
+POST         /agencies/{agency}/commissions-toggle [agency]
+GET,HEAD     /agencies/create
+DELETE       /agencies/{agency}/dead-reasons/{dead_reason} [agency, dead_reason]
+GET,HEAD     /agencies/{agency}/dead-reasons [agency]
+GET,HEAD     /agencies/{agency}/dead-reasons/{dead_reason} [agency, dead_reason]
+POST         /agencies/{agency}/dead-reasons [agency]
+PUT,PATCH    /agencies/{agency}/dead-reasons/{dead_reason} [agency, dead_reason]
+DELETE       /agencies/{agency}/department_skills/{department_skill} [agency, department_skill]
+GET,HEAD     /agencies/{agency}/department_skills [agency]
+GET,HEAD     /agencies/{agency}/department_skills/{department_skill} [agency, department_skill]
+POST         /agencies/{agency}/department_skills [agency]
+PUT,PATCH    /agencies/{agency}/department_skills/{department_skill} [agency, department_skill]
+DELETE       /agencies/{agency} [agency]
+GET,HEAD     /agencies/{agency}/edit [agency]
+PUT          /agencies/{agency}/email-and-text-settings [agency]
+GET,HEAD     /agencies
+DELETE       /agencies/{agency}/lead-tags/{lead_tag} [agency, lead_tag]
+GET,HEAD     /agencies/{agency}/lead-tags [agency]
+GET,HEAD     /agencies/{agency}/lead-tags/{lead_tag} [agency, lead_tag]
+POST         /agencies/{agency}/lead-tags [agency]
+PUT,PATCH    /agencies/{agency}/lead-tags/{lead_tag} [agency, lead_tag]
+POST         /agencies/{agency}/notifications [agency]
+POST         /agencies/{agency}/notifications/delete-email [agency]
+POST         /agencies/{agency}/notifications/validate-email [agency]
+GET,HEAD     /agencies/{agency} [agency]
+POST         /agencies/{agency}/sidebar-widgets [agency]
+POST         /agencies
+POST         /agencies/{agency}/stripe-keys [agency]
+POST         /agencies/{agency} [agency]
+GET,HEAD     /agency-admin/commission-statements/{commissionStatement}/exportCsv [commissionStatement]
+GET,HEAD     /agency-admin/commission-statements
+GET,HEAD     /agency-admin/commission-statements/{commissionStatement}/overrides-detail [commissionStatement]
+GET,HEAD     /agency-admin/commission-statements/{commissionStatement}/personal-production-detail [commissionStatement]
+GET,HEAD     /agency-admin/commission-statements/search
+GET,HEAD     /agency-admin/commission-statements/search-export
+GET,HEAD     /agency-admin/commission-statements/{commissionStatement}/summary [commissionStatement]
+GET,HEAD     /agency-logo
+POST         /agency-logo
+GET,HEAD     /agency-qsp-categories/create
+DELETE       /agency-qsp-categories/{category} [category]
+GET,HEAD     /agency-qsp-categories/{category}/edit [category]
+GET,HEAD     /agency-qsp-categories
+GET,HEAD     /agency-qsp-categories/{category} [category]
+POST         /agency-qsp-categories
+PUT          /agency-qsp-categories/{category}/archive [category]
+PUT,PATCH    /agency-qsp-categories/{category} [category]
+DELETE       /agency-tasks/{task} [task]
+GET,HEAD     /agency-tasks
+POST         /agency-tasks
+PUT          /agency-tasks/{task} [task]
+POST         /agency-training/{agency_training}/agents [agency_training]
+GET,HEAD     /agency-training/create
+DELETE       /agency-training/{agency_training} [agency_training]
+GET,HEAD     /agency-training/{agency_training}/edit [agency_training]
+GET,HEAD     /agency-training
+DELETE       /agency-training/{agency_training}/resources/{resource}/delete [agency_training, resource]
+POST         /agency-training/{agency_training}/resources [agency_training]
+PUT          /agency-training/{agency_training}/resources/{resource} [agency_training, resource]
+GET,HEAD     /agency-training/{agency_training} [agency_training]
+POST         /agency-training
+PUT,PATCH    /agency-training/{agency_training} [agency_training]
+DELETE       /agency/bucket-sharing/{bucket}/clear-all [bucket]
+GET,HEAD     /agency/bucket-sharing/{bucket}/get-agencies [bucket]
+GET,HEAD     /agency/bucket-sharing
+POST         /agency/bucket-sharing/store
+PUT          /agency/bucket-sharing/{agencyBucketSharing}/update [agencyBucketSharing]
+DELETE       /agency/dnc-keys/{key} [key]
+GET,HEAD     /agency/dnc-keys
+POST         /agency/dnc-keys/{key}/share [key]
+POST         /agency/dnc-keys
+PUT          /agency/dnc-keys/{key} [key]
+POST         /agency/dnc-keys/verify-password
+GET,HEAD     /billing/agency-subscription-billing-info
+PUT          /billing/agency-subscription-billing-info/billing-option
+GET,HEAD     /billing/agency-subscription-invoices/{invoice}/download [invoice]
+GET,HEAD     /billing/agency-subscription-invoices
+PUT          /agency_carriers/{agencyCarrier}/agents [agencyCarrier]
+DELETE       /agency_carriers/{agencyCarrier}/brochures/{agencyCarrierBrochure} [agencyCarrier, agencyCarrierBrochure]
+POST         /agency_carriers/{agencyCarrier}/brochures [agencyCarrier]
+POST         /agency_carriers/{agencyCarrier}/brochures/{agencyCarrierBrochure} [agencyCarrier, agencyCarrierBrochure]
+GET,HEAD     /agency_carriers/create
+DELETE       /agency_carriers/{carrier} [carrier]
+GET,HEAD     /agency_carriers/{carrier}/edit [carrier]
+PUT          /agencies/{agency}/carriers/{carrier}/general_details [agency, carrier]
+GET,HEAD     /agency_carriers
+POST         /agency_carriers/{agencyCarrier}/products [agencyCarrier]
+POST         /agency-carrier-products/{product}/toggle-active [product]
+PUT          /agency_carriers/{agencyCarrier}/products/{product} [agencyCarrier, product]
+POST         /agency-carrier-products/{product}/update-agency-bucks [product]
+POST         /agency-carrier-products/{product}/update-multiplier [product]
+POST         /agency_carriers/{agencyCarrier}/qs_products [agencyCarrier]
+PUT          /agency_carriers/{agencyCarrier}/qs_products/{qsProduct}/archive [agencyCarrier, qsProduct]
+PUT          /agency_carriers/{agencyCarrier}/qs_products/{qsProduct} [agencyCarrier, qsProduct]
+POST         /agency_carriers/{carrier}/remove-access [carrier]
+GET,HEAD     /agency_carriers/{carrier} [carrier]
+PUT          /agency_carriers/{agencyCarrier}/states [agencyCarrier]
+POST         /agency_carriers
+DELETE       /agency_carriers/{agencyCarrier}/training_resources/{agencyCarrierTraining} [agencyCarrier, agencyCarrierTraining]
+POST         /agency_carriers/{agencyCarrier}/training_resources [agencyCarrier]
+POST         /agency_carriers/{agencyCarrier}/training_resources/{agencyCarrierTraining} [agencyCarrier, agencyCarrierTraining]
+DELETE       /agency_carrier_qs_products/{qsProduct}/qa_bullets/{qaBullet} [qsProduct, qaBullet]
+GET,HEAD     /agency_carrier_qs_products/{qsProduct}/qa_bullets [qsProduct]
+PUT          /agency_carrier_qs_products/{qsProduct}/qa-bullets-reorder [qsProduct]
+POST         /agency_carrier_qs_products/{qsProduct}/qa_bullets [qsProduct]
+PUT          /agency_carrier_qs_products/{qsProduct}/qa_bullets/{qaBullet} [qsProduct, qaBullet]
+DELETE       /agency_carrier_qs_products/{qsProduct}/text_bullets/{textBullet} [qsProduct, textBullet]
+GET,HEAD     /agency_carrier_qs_products/{qsProduct}/text_bullets [qsProduct]
+PUT          /agency_carrier_qs_products/{qsProduct}/text-bullets-reorder [qsProduct]
+POST         /agency_carrier_qs_products/{qsProduct}/text_bullets [qsProduct]
+PUT          /agency_carrier_qs_products/{qsProduct}/text_bullets/{textBullet} [qsProduct, textBullet]
+GET,HEAD     /agencies/{agency}/working-hours [agency]
+POST         /agencies/{agency}/working-hours [agency]
+GET,HEAD     /balance-management
+GET,HEAD     /agents/{agent}/carriers/{carrier}/all-agents-with-access [agent, carrier]
+POST         /agents/{agent}/carriers/assign-all [agent]
+DELETE       /agents/{agent}/carriers/{agencyCarrier} [agent, agencyCarrier]
+GET,HEAD     /agents/{agent}/carriers [agent]
+GET,HEAD     /agents/{agent}/carriers/{carrier} [agent, carrier]
+POST         /agents/{agent}/carriers [agent]
+PUT          /agents/{agent}/carriers/{carrier}/transfer-downline [agent, carrier]
+PATCH        /agents/{agent}/carriers/{agencyCarrier} [agent, agencyCarrier]
+GET,HEAD     /agent-form-submissions/create
+DELETE       /agent-form-submissions/{agent_form_submission} [agent_form_submission]
+GET,HEAD     /agent-form-submissions/{agent_form_submission}/edit [agent_form_submission]
+GET,HEAD     /agent-form-submissions
+GET,HEAD     /agent-form-submissions/{agent_form_submission} [agent_form_submission]
+POST         /agent-form-submissions
+PUT,PATCH    /agent-form-submissions/{agent_form_submission} [agent_form_submission]
+GET,HEAD     /agent-form-templates/create
+DELETE       /agent-form-templates/{agent_form_template} [agent_form_template]
+GET,HEAD     /agent-form-templates/{agent_form_template}/edit [agent_form_template]
+PUT          /agent-form-templates/{agentFormTemplate}/fields [agentFormTemplate]
+GET,HEAD     /agent-form-templates
+GET,HEAD     /agent-form-templates/{agent_form_template} [agent_form_template]
+POST         /agent-form-templates
+PUT,PATCH    /agent-form-templates/{agent_form_template} [agent_form_template]
+POST         /agent-form/{agentForm}/archive [agentForm]
+GET,HEAD     /agent-form/create
+DELETE       /agent-form/{agent_form} [agent_form]
+POST         /agent-form/{agentForm}/duplicate [agentForm]
+GET,HEAD     /agent-form/{agent_form}/edit [agent_form]
+PUT          /agent-form/{agentForm}/fields [agentForm]
+GET,HEAD     /agent-form
+GET,HEAD     /agent-form/{agentForm}/lead-list [agentForm]
+GET,HEAD     /agent-form/{agentForm}/qr/to-email [agentForm]
+POST         /agent-form/{agentForm}/qr/generate [agentForm]
+GET,HEAD     /agent-form/{agentForm}/qr/image-download [agentForm]
+GET,HEAD     /agent-form/{agentForm}/qr/pdf-download [agentForm]
+GET,HEAD     /agent-form/{agent_form} [agent_form]
+POST         /agent-form
+POST         /agent-form/{agentForm}/unarchive [agentForm]
+PUT,PATCH    /agent-form/{agent_form} [agent_form]
+POST         /agent-form/update-logo
+DELETE       /agent-lead-share/{lead}/agents/{agent} [lead, agent]
+GET,HEAD     /agent-lead-share/{lead}/agents-search [lead]
+POST         /agent-lead-share/{lead} [lead]
+GET,HEAD     /agent-transfer/{user}/agencies [user]
+GET,HEAD     /agent-transfer/{user}/transfer [user]
+POST         /agent-transfer/{user}/transfer [user]
+DELETE       /agent-twilio-account
+POST         /agent-twilio-account/provision-new-number
+GET,HEAD     /agent-twilio-account
+POST         /agent-twilio-account
+POST         /agent-twilio-account/update-phone-number
+GET,HEAD     /agents/{agent}/carriers/{carrier}/data [agent, carrier]
+PUT          /agents/{agent}/carriers/{carrier}/data [agent, carrier]
+GET,HEAD     /agents/{agent}/carriers/{carrier}/hierarchy [agent, carrier]
+GET,HEAD     /commission-statements/{commissionStatement}/exportCsv [commissionStatement]
+DELETE       /commission-statements/files/{agentFile} [agentFile]
+GET,HEAD     /commission-statements/files
+GET,HEAD     /commission-statements
+GET,HEAD     /commission-statements/{commissionStatement}/overrides-detail [commissionStatement]
+GET,HEAD     /commission-statements/{commissionStatement}/personal-production-detail [commissionStatement]
+GET,HEAD     /commission-statements/search
+GET,HEAD     /commission-statements/search-export
+GET,HEAD     /commission-statements/{commissionStatement}/summary [commissionStatement]
+POST         /agents/{agent}/stripe-keys [agent]
+GET,HEAD     /billing/agent-subscription-billing-info
+GET,HEAD     /billing/agent-subscription-invoices
+GET,HEAD     /billing/agent-billing/marketplace-cards
+DELETE       /agents/{agent}/account-access/{account_access} [agent, account_access]
+GET,HEAD     /agents/{agent}/account-access [agent]
+DELETE       /agents/{agent}/account-access/{accessible_user_id}/revoke [agent, accessible_user_id]
+GET,HEAD     /agents/{agent}/account-access/{account_access} [agent, account_access]
+POST         /agents/{agent}/account-access [agent]
+PUT,PATCH    /agents/{agent}/account-access/{account_access} [agent, account_access]
+POST         /agents/{user}/authorize-autoreplenish [user]
+POST         /agents/{user}/autoreplenish-settings [user]
+DELETE       /agents/{agent}/bucket-access/{bucket_access} [agent, bucket_access]
+GET,HEAD     /agents/{agent}/bucket-access [agent]
+GET,HEAD     /agents/{agent}/bucket-access/{bucket_access} [agent, bucket_access]
+POST         /agents/{agent}/bucket-access [agent]
+PUT,PATCH    /agents/{agent}/bucket-access/{bucket_access} [agent, bucket_access]
+PUT          /agents/{agent}/contract-info [agent]
+GET,HEAD     /agents/create
+DELETE       /agents/{agent} [agent]
+GET,HEAD     /agents/{agent}/edit [agent]
+DELETE       /agents/{agent}/files/{file} [agent, file]
+GET,HEAD     /agents/{agent}/files/{file}/download [agent, file]
+GET,HEAD     /agents/{agent}/files [agent]
+GET,HEAD     /agents/{agent}/files/{file} [agent, file]
+POST         /agents/{agent}/files [agent]
+PUT,PATCH    /agents/{agent}/files/{file} [agent, file]
+POST         /agents/{agent}/hst-data-migration/migrate [agent]
+GET,HEAD     /agents/{agent}/hst-data-migration/status [agent]
+GET,HEAD     /agents
+PATCH        /agents/{agent}/bulk-update-licenses [agent]
+DELETE       /agents/{agent}/licenses/{license} [agent, license]
+GET,HEAD     /agents/{agent}/licenses [agent]
+GET,HEAD     /agents/{agent}/licenses/{license} [agent, license]
+POST         /agents/{agent}/licenses [agent]
+PUT,PATCH    /agents/{agent}/licenses/{license} [agent, license]
+POST         /agents/{user}/low-balance-threshold [user]
+POST         /agents/{user}/toggle-low-balance-notification [user]
+DELETE       /agents/{agent}/notes/{note} [agent, note]
+GET,HEAD     /agents/{agent}/notes [agent]
+GET,HEAD     /agents/{agent}/notes/{note} [agent, note]
+POST         /agents/{agent}/notes [agent]
+PUT,PATCH    /agents/{agent}/notes/{note} [agent, note]
+POST         /agents/{agent}/provision-new-twilio-number [agent]
+GET,HEAD     /agents/{agent} [agent]
+POST         /agents
+POST         /agents/{agent}/toggle-active-status [agent]
+POST         /commission-admin/agents/{user}/toggle-has-commissions [user]
+GET,HEAD     /agents/{agent}/trainings [agent]
+GET,HEAD     /agents/{agent}/trainings/{resource} [agent, resource]
+POST         /agents/{agent}/trainings/{resource} [agent, resource]
+PATCH        /agents/{agent}/trainings/{resource} [agent, resource]
+PUT,PATCH    /agents/{agent} [agent]
+POST         /agree-to-eula
+GET,HEAD     /api-keys/create
+DELETE       /api-keys/{api_key} [api_key]
+GET,HEAD     /api-keys
+POST         /api-keys
+PUT,PATCH    /api-keys/{api_key} [api_key]
+GET,HEAD     /api/check-duplicate-leads
+POST         /api/consents-part-2-create
+DELETE       /api/consents-delete
+POST         /api/consents-fetch/{lead} [lead]
+POST         /api/consents-resend
+POST         /api/consents-create
+POST         /api/grab-lead/{lead} [lead]
+POST         /api/hst/credit-transfer
+GET,HEAD     /api/action-search
+GET,HEAD     /report/api/agent-carrier-commission-search
+GET,HEAD     /api/agents-search
+GET,HEAD     /api/automatable_entities/{entity}/tasks [entity]
+GET,HEAD     /api/automatable_entities/{entity}/triggers [entity]
+GET,HEAD     /api/lead-logins/{leadLogin}/show-password [leadLogin]
+POST         /api/leadcloud/lead
+POST         /api/{vendor_key}/leads [vendor_key]
+POST         /api/rtb
+POST         /api/sales
+POST         /api/soa-consents-fetch/{lead} [lead]
+POST         /api/soa-consents-resend
+POST         /api/soa-consents-create
+POST         /api/spanish-consents-part-2-create
+POST         /api/spanish-consents-create
+POST         /api/spanish-soa-consents-create
+GET,HEAD     /api/user-email-check
+GET,HEAD     /appt-reminder
+POST         /appt-reminder
+GET,HEAD     /automation-templates
+PATCH        /automations/{automation}/change-automatable-entity [automation]
+DELETE       /automations/{automation}/conditions/{condition}/delete [automation, condition]
+POST         /automations/{automation}/conditions [automation]
+POST         /automations/{automation}/conditions/from-template [automation]
+PATCH        /automations/{automation}/conditions/{condition}/comparison [automation, condition]
+PATCH        /automations/{automation}/conditions/{condition}/trigger [automation, condition]
+GET,HEAD     /automations/create
+DELETE       /automations/{automation}/delete [automation]
+POST         /automations/{automation}/from-template [automation]
+GET,HEAD     /automations
+GET,HEAD     /automations/{automation}/show [automation]
+DELETE       /automations/{automation}/tasks/{task}/delete [automation, task]
+POST         /automations/{automation}/tasks [automation]
+POST         /automations/{automation}/tasks/from-template [automation]
+PATCH        /automations/{automation}/tasks/{task} [automation, task]
+PUT          /automations/{automation}/tasks/{task}/from-template [automation, task]
+PATCH        /automations/{automation}/toggle-add-new-agents [automation]
+PATCH        /automations/{automation}/toggle-is-agency [automation]
+PATCH        /automations/{automation}/update [automation]
+PATCH        /automations/{automation}/update-hours [automation]
+PATCH        /automations/{automation}/update-name [automation]
+POST         /automations/{automation}/syncUsers [automation]
+DELETE       /autoresponders_sequence/{sequence} [sequence]
+POST         /autoresponders_sequence
+PUT          /autoresponders_sequence/{sequence} [sequence]
+DELETE       /autoresponders_sequence/{sequence}/messages/{message} [sequence, message]
+GET,HEAD     /autoresponders_sequence/{sequence?} [sequence]
+POST         /autoresponders_sequence/{sequence}/messages [sequence]
+PUT          /autoresponders_sequence/{sequence}/messages/{message}/toggleActiveStatus [sequence, message]
+PUT          /autoresponders_sequence/{sequence}/messages/{message} [sequence, message]
+DELETE       /autoresponders_status/{lead_status}/messages/{message} [lead_status, message]
+GET,HEAD     /autoresponders_status/{lead_status} [lead_status]
+POST         /autoresponders_status/{lead_status} [lead_status]
+PUT          /autoresponders_status/{lead_status}/messages/{message}/toggleActiveStatus [lead_status, message]
+PUT          /autoresponders_status/{lead_status}/messages/{message} [lead_status, message]
+POST         /azure/webhook
+GET,HEAD     /bdc/agent-information/{agent} [agent]
+GET,HEAD     /bdc/available-agents/{lead} [lead]
+GET,HEAD     /bdc/inform-datetime
+DELETE       /blacklist/{blacklist} [blacklist]
+GET,HEAD     /blacklist
+POST         /blacklist
+POST         /bob-upload/assign-carrier
+GET,HEAD     /bob-upload/{book_of_business_upload_session}/complete-stats [book_of_business_upload_session]
+GET,HEAD     /bob-upload/{book_of_business_upload_session}/complete-stats/export [book_of_business_upload_session]
+GET,HEAD     /bob-upload/download-template
+GET,HEAD     /bob-upload/session/{book_of_business_upload_session}/duplicates [book_of_business_upload_session]
+GET,HEAD     /bob-upload/session/{book_of_business_upload_session}/duplicates/{lead_row}/list [book_of_business_upload_session, lead_row]
+POST         /bob-upload/session/{book_of_business_upload_session}/duplicates [book_of_business_upload_session]
+GET,HEAD     /bob-upload/get-agency-carriers
+GET,HEAD     /bob-upload/agency-data
+GET,HEAD     /bob-upload
+GET,HEAD     /bob-upload/session/{book_of_business_upload_session}/missing-data [book_of_business_upload_session]
+POST         /bob-upload/session/{book_of_business_upload_session}/missing-data [book_of_business_upload_session]
+GET,HEAD     /bob-upload/session-status/{book_of_business_upload_session} [book_of_business_upload_session]
+GET,HEAD     /bob-upload/session/{book_of_business_upload_session}/unmatched-transactions [book_of_business_upload_session]
+POST         /bob-upload/session/{book_of_business_upload_session}/unmatched-transactions [book_of_business_upload_session]
+POST         /bob-upload/upload
+GET,HEAD     /bookmarks/create
+DELETE       /bookmarks/{bookmark} [bookmark]
+GET,HEAD     /bookmarks/{bookmark}/edit [bookmark]
+GET,HEAD     /bookmarks
+GET,HEAD     /bookmarks/{bookmark} [bookmark]
+POST         /bookmarks
+PUT,PATCH    /bookmarks/{bookmark} [bookmark]
+DELETE       /bucket-imports/{bucketImport}/duplicate-rows/{bucketImportRow} [bucketImport, bucketImportRow]
+GET,HEAD     /bucket-imports/{bucketImport}/duplicate-rows [bucketImport]
+GET,HEAD     /bucket-imports/{bucketImport}/merge-row/{bucketImportRow} [bucketImport, bucketImportRow]
+POST         /bucket-imports/{bucketImport}/merge-row/{bucketImportRow} [bucketImport, bucketImportRow]
+DELETE       /bucket-imports/{bucketImport}/failed-rows/{bucketImportRow} [bucketImport, bucketImportRow]
+GET,HEAD     /bucket-imports/{bucketImport}/failed-rows [bucketImport]
+GET,HEAD     /bucket-imports/{bucketImport}/failed-rows/{bucketImportRow} [bucketImport, bucketImportRow]
+POST         /bucket-imports/{bucketImport}/failed-rows/{bucketImportRow} [bucketImport, bucketImportRow]
+GET,HEAD     /bucket-imports/{bucketImport}/progress [bucketImport]
+POST         /buckets/{bucket}/leads/{lead} [bucket, lead]
+GET,HEAD     /buckets/{bucket}/leads [bucket]
+GET,HEAD     /buckets/{bucket}/import-leads [bucket]
+POST         /buckets/{bucket}/import-leads [bucket]
+GET,HEAD     /buckets/{id}/access [id]
+POST         /buckets/{id}/access/daily-limit-store [id]
+GET,HEAD     /buckets/{bucket}/can-be-deleted [bucket]
+GET,HEAD     /buckets/{bucket}/contacted-leads [bucket]
+GET,HEAD     /buckets/create
+GET,HEAD     /buckets/{bucket}/dead-leads [bucket]
+DELETE       /buckets/{bucket} [bucket]
+GET,HEAD     /buckets/{bucket}/disconnected-leads [bucket]
+GET,HEAD     /buckets/{bucket}/edit [bucket]
+GET,HEAD     /buckets
+PUT          /buckets/{bucket}/new-Agents-daily-limit [bucket]
+GET,HEAD     /buckets/{bucket} [bucket]
+POST         /buckets
+PUT,PATCH    /buckets/{bucket} [bucket]
+GET,HEAD     /buckets/{bucket}/sold-leads [bucket]
+DELETE       /calendar-events/{calendar_event} [calendar_event]
+GET,HEAD     /calendar-events
+GET,HEAD     /calendar-events/{calendar_event} [calendar_event]
+POST         /calendar-events
+PUT,PATCH    /calendar-events/{calendar_event} [calendar_event]
+POST         /calendar-sharing/bulk-update
+GET,HEAD     /calendar-sharing/get-all-shared
+GET,HEAD     /calendar-sharing
+POST         /calendar-sharing/update-agent/{user} [user]
+GET,HEAD     /calendar/{user?} [user]
+GET,HEAD     /mobile-calendar-info
+POST         /send-mobile-calendar-link
+POST         /campaigns/{campaign}/lead-count [campaign]
+POST         /campaigns/{campaign}/publish [campaign]
+GET,HEAD     /campaigns/{campaign}/report/export [campaign]
+GET,HEAD     /campaigns/{campaign}/report [campaign]
+POST         /campaigns/{campaign}/terminate [campaign]
+POST         /campaigns/{campaign}/unterminate [campaign]
+GET,HEAD     /stripe/payment/{id} [id]
+POST         /stripe/webhook
+DELETE       /admin/commission-statements/{commissionStatement}/duplicate-rows/{row} [commissionStatement, row]
+GET,HEAD     /admin/commission-statements/{commissionStatement}/duplicate-rows [commissionStatement]
+GET,HEAD     /admin/commission-statements/{commissionStatement}/duplicate-rows/{row} [commissionStatement, row]
+POST         /admin/commission-statements/{commissionStatement}/duplicate-rows/{row} [commissionStatement, row]
+DELETE       /admin/commission-statements/{commissionStatement}/failed-rows/{row} [commissionStatement, row]
+GET,HEAD     /admin/commission-statements/{commissionStatement}/failed-rows [commissionStatement]
+GET,HEAD     /admin/commission-statements/{commissionStatement}/failed-rows/{row} [commissionStatement, row]
+POST         /admin/commission-statements/{commissionStatement}/failed-rows/{row} [commissionStatement, row]
+POST         /admin/commission-statements/{commissionStatement}/failed-rows/{row}/store-user [commissionStatement, row]
+GET,HEAD     /commission-statements/client-payout-history/{entry} [entry]
+DELETE       /admin/commission-statements/{commissionStatement}/destroy [commissionStatement]
+DELETE       /admin/commission-statements/{commissionStatement}/entries/{entry} [commissionStatement, entry]
+GET,HEAD     /admin/commission-statements/{commissionStatement}/entries [commissionStatement]
+GET,HEAD     /admin/commission-statements/{commissionStatement}/entries/{entry} [commissionStatement, entry]
+PUT          /admin/commission-statements/{commissionStatement}/entries/{entry} [commissionStatement, entry]
+POST         /commissions/authorize
+GET,HEAD     /confirm-appointment/{uuid} [uuid]
+GET,HEAD     /appt-confirmed/{uuid} [uuid]
+GET,HEAD     /custom-tags/create
+DELETE       /custom-tags/{custom_tag} [custom_tag]
+GET,HEAD     /custom-tags/{custom_tag}/edit [custom_tag]
+GET,HEAD     /custom-tags
+GET,HEAD     /custom-tags-search
+GET,HEAD     /custom-tags/{custom_tag} [custom_tag]
+POST         /custom-tags
+PUT,PATCH    /custom-tags/{custom_tag} [custom_tag]
+GET,HEAD     /custom-tags/{custom_tag}/view [custom_tag]
+GET,HEAD     /dashboard
+GET,HEAD     /dashboard/activity-stats
+GET,HEAD     /dashboard/call-activity-stats
+GET,HEAD     /dashboard/export/birthdays
+GET,HEAD     /dashboard/user-tasks/{user} [user]
+POST         /dashboard/widgets/hide
+POST         /dashboard/widgets/update-order
+GET,HEAD     /_debugbar/assets/stylesheets
+GET,HEAD     /_debugbar/assets/javascript
+DELETE       /_debugbar/cache/{key}/{tags?} [key, tags]
+GET,HEAD     /_debugbar/clockwork/{id} [id]
+GET,HEAD     /_debugbar/open
+POST         /_debugbar/queries/explain
+GET,HEAD     /dependant-form-password-checked-recently/{dependant} [dependant]
+GET,HEAD     /docs/bucket-lead-upload
+GET,HEAD     /docs/feed-api
+GET,HEAD     /docs/incoming-sales
+GET,HEAD     /docs
+POST         /email-blasts/{id}/approve [id]
+GET,HEAD     /email-blasts/create
+POST         /email-blasts/{id}/decline [id]
+DELETE       /email-blasts/{email_blast} [email_blast]
+GET,HEAD     /email-blasts/{email_blast}/edit [email_blast]
+GET,HEAD     /email-blasts
+GET,HEAD     /email-blasts/{email_blast} [email_blast]
+POST         /email-blasts
+PUT,PATCH    /email-blasts/{email_blast} [email_blast]
+GET,HEAD     /email-campaigns/create
+GET,HEAD     /email-campaigns/{campaign}/criteria [campaign]
+POST         /email-campaigns/{campaign}/criteria [campaign]
+DELETE       /email-campaigns/{campaign}/delete [campaign]
+GET,HEAD     /email-campaigns/{campaign}/details [campaign]
+POST         /email-campaigns/{campaign}/details [campaign]
+GET,HEAD     /email-campaigns
+GET,HEAD     /email-campaigns/{campaign}/messages/create [campaign]
+DELETE       /email-campaigns/{campaign}/messages/{message} [campaign, message]
+GET,HEAD     /email-campaigns/{campaign}/messages [campaign]
+GET,HEAD     /email-campaigns/{campaign}/messages/{message} [campaign, message]
+POST         /email-campaigns/{campaign}/messages [campaign]
+POST         /email-campaigns/{campaign}/messages/{message}/update [campaign, message]
+GET,HEAD     /email-campaigns/{campaign}/sending-times [campaign]
+POST         /email-campaigns/{campaign}/sending-times [campaign]
+GET,HEAD     /email-messages/{emailMessage}/preview [emailMessage]
+GET,HEAD     /email-signature
+POST         /email-signature
+GET,HEAD     /email-templates/create
+DELETE       /email-templates/{email_template} [email_template]
+GET,HEAD     /email-templates/{email_template}/edit [email_template]
+GET,HEAD     /email-templates
+GET,HEAD     /email-templates/{emailTemplate}/preview/{lead} [emailTemplate, lead]
+GET,HEAD     /email-templates/{email_template} [email_template]
+POST         /email-templates
+PUT,PATCH    /email-templates/{email_template} [email_template]
+GET,HEAD     /pdf/email-deliverability-faqs
+GET,HEAD     /email-template-preview/{emailTemplate} [emailTemplate]
+GET,HEAD     /eula
+GET,HEAD     /expired-meetings
+POST         /files/authorize
+POST         /files/authorize-send
+POST         /api/froala/upload-file
+GET,HEAD     /api/froala/images
+POST         /api/froala/upload-image
+PUT          /global-notifies/{globalNotify}/expire [globalNotify]
+GET,HEAD     /global-notifies
+GET,HEAD     /global-qsp-categories/create
+DELETE       /global-qsp-categories/{category} [category]
+GET,HEAD     /global-qsp-categories/{category}/edit [category]
+GET,HEAD     /global-qsp-categories
+GET,HEAD     /global-qsp-categories/{category} [category]
+POST         /global-qsp-categories
+PUT          /global-qsp-categories/{category}/archive [category]
+PUT,PATCH    /global-qsp-categories/{category} [category]
+GET,HEAD     /billing/global-subscription-billing-info/setup-intent
+POST         /billing/global-subscription-billing-info
+GET,HEAD     /oauth/google-calendar
+POST         /google-account/{googleAccount}/calendar/{googleCalendar} [googleAccount, googleCalendar]
+DELETE       /google-account/{googleAccount} [googleAccount]
+GET,HEAD     /oauth/google-gmail
+GET,HEAD     /google-account
+GET,HEAD     /oauth/google
+POST         /google/webhook
+GET,HEAD     /grace-pull/log-details/{grace_pull_log} [grace_pull_log]
+GET,HEAD     /horizon/api/jobs/completed
+GET,HEAD     /horizon/api/jobs/failed
+GET,HEAD     /horizon/api/jobs/failed/{id} [id]
+GET,HEAD     /horizon/{view?} [view]
+GET,HEAD     /horizon/api/batches
+POST         /horizon/api/batches/retry/{id} [id]
+GET,HEAD     /horizon/api/batches/{id} [id]
+GET,HEAD     /horizon/api/metrics/jobs
+GET,HEAD     /horizon/api/metrics/jobs/{id} [id]
+GET,HEAD     /horizon/api/jobs/{id} [id]
+GET,HEAD     /horizon/api/masters
+DELETE       /horizon/api/monitoring/{tag} [tag]
+GET,HEAD     /horizon/api/monitoring/{tag} [tag]
+GET,HEAD     /horizon/api/monitoring
+POST         /horizon/api/monitoring
+GET,HEAD     /horizon/api/jobs/pending
+GET,HEAD     /horizon/api/metrics/queues
+GET,HEAD     /horizon/api/metrics/queues/{id} [id]
+POST         /horizon/api/jobs/retry/{id} [id]
+GET,HEAD     /horizon/api/jobs/silenced
+GET,HEAD     /horizon/api/stats
+GET,HEAD     /horizon/api/workload
+GET,HEAD     /hst-bucket-sync
+POST         /hst-bucket-sync
+POST         /_ignition/execute-solution
+GET,HEAD     /_ignition/health-check
+POST         /_ignition/update-config
+GET,HEAD     /impersonate/user/{user} [user]
+GET,HEAD     /impersonate/end
+POST         /internal/keyword-serach
+POST         /lead-action/{lead}/shared-with/{user}/next [lead, user]
+POST         /lead-action/{lead}/shared-with/{user}/next-with-complete-multiple [lead, user]
+GET,HEAD     /lead-action/check-working-hours/{actionScheduleMap?} [actionScheduleMap]
+GET,HEAD     /lead-action/{leadSchedule}/duplicate-lookup [leadSchedule]
+GET,HEAD     /lead-action/{leadSchedule}/reschedule [leadSchedule]
+DELETE       /lead-action/history/delete/{leadActionHistory} [leadActionHistory]
+PUT          /lead-action/history/flag/{leadActionHistory} [leadActionHistory]
+PUT          /lead-action/history/pin/{leadActionHistory} [leadActionHistory]
+PUT          /lead-action/history/unflag/{leadActionHistory} [leadActionHistory]
+PUT          /lead-action/history/unpin/{leadActionHistory} [leadActionHistory]
+GET,HEAD     /lead-action/{lead}/next [lead]
+GET,HEAD     /lead-action/{lead}/next-by-status/{leadStatus} [lead, leadStatus]
+POST         /lead-action/{lead}/next [lead]
+POST         /lead-action/{lead}/next-with-complete-multiple [lead]
+POST         /lead-action/{leadSchedule}/reschedule [leadSchedule]
+DELETE       /lead-action/schedule/delete/{leadSchedule} [leadSchedule]
+PUT          /lead-action/schedule/flag/{leadSchedule} [leadSchedule]
+PUT          /lead-action/schedule/unflag/{leadSchedule} [leadSchedule]
+POST         /lead-campaigns/{lead}/disable/{campaign} [lead, campaign]
+POST         /lead-campaigns/{lead}/enable/{campaign} [lead, campaign]
+POST         /lead-campaigns/{lead}/global-disable [lead]
+POST         /lead-campaigns/{lead}/global-enable [lead]
+POST         /lead-campaigns/{lead}/re-add/{campaign} [lead, campaign]
+DELETE       /leads/{lead}/carriers/{agencyCarrier} [lead, agencyCarrier]
+GET,HEAD     /leads/{lead}/carriers [lead]
+POST         /leads/{lead}/carriers [lead]
+PATCH        /leads/{lead}/carriers/{agencyCarrier} [lead, agencyCarrier]
+GET,HEAD     /lead-custom-tags/{lead_custom_tag}/lead/create [lead_custom_tag]
+DELETE       /lead-custom-tags/{lead_custom_tag}/lead/{lead} [lead_custom_tag, lead]
+GET,HEAD     /lead-custom-tags/{lead_custom_tag}/lead/{lead}/edit [lead_custom_tag, lead]
+GET,HEAD     /lead-custom-tags/{lead_custom_tag}/lead [lead_custom_tag]
+GET,HEAD     /lead-custom-tags/{lead_custom_tag}/lead/{lead} [lead_custom_tag, lead]
+POST         /lead-custom-tags/{lead_custom_tag}/lead [lead_custom_tag]
+PUT,PATCH    /lead-custom-tags/{lead_custom_tag}/lead/{lead} [lead_custom_tag, lead]
+GET,HEAD     /leads/{lead}/dependants/{dependant}/ssn [lead, dependant]
+POST         /leads/{lead}/dependants/{dependant}/ssn [lead, dependant]
+GET,HEAD     /lead-forms/create
+DELETE       /lead-forms/{lead_form} [lead_form]
+GET,HEAD     /lead-forms/{lead_form}/edit [lead_form]
+GET,HEAD     /lead-forms
+PUT          /lead-forms/{lead_form}/set-active [lead_form]
+GET,HEAD     /lead-forms/{lead_form} [lead_form]
+POST         /lead-forms
+PUT,PATCH    /lead-forms/{lead_form} [lead_form]
+GET,HEAD     /lead-hours
+POST         /lead-hours
+GET,HEAD     /lead-redirect-configs/create
+DELETE       /lead-redirect-configs/{config} [config]
+GET,HEAD     /lead-redirect-configs
+GET,HEAD     /lead-redirect-configs/{config} [config]
+POST         /lead-redirect-configs
+POST         /lead-redirect-configs/{config}/update [config]
+GET,HEAD     /lead-schedule/lead/{lead} [lead]
+GET,HEAD     /lead-schedule/lead/{user} [user]
+GET,HEAD     /leads-export-csv
+GET,HEAD     /lead-segments/create
+DELETE       /lead-segments/{lead_segment} [lead_segment]
+GET,HEAD     /lead-segments/{lead_segment}/edit [lead_segment]
+GET,HEAD     /lead-segments
+POST         /lead-segments/list
+GET,HEAD     /lead-segments/list
+GET,HEAD     /lead-segments/{lead_segment} [lead_segment]
+GET,HEAD     /lead-segments/showLeads
+POST         /lead-segments
+PUT,PATCH    /lead-segments/{lead_segment} [lead_segment]
+GET,HEAD     /lead-sources/create
+DELETE       /lead-sources/{lead_source} [lead_source]
+GET,HEAD     /lead-sources/{lead_source}/edit [lead_source]
+GET,HEAD     /lead-sources
+POST         /lead-sources/{leadSource}/send-doc-instructions [leadSource]
+GET,HEAD     /lead-sources/{lead_source} [lead_source]
+POST         /lead-sources
+POST         /lead-sources/{source}/toggle-active [source]
+PUT,PATCH    /lead-sources/{lead_source} [lead_source]
+POST         /lead-widgets-order
+GET,HEAD     /lead-capture
+POST         /lead-capture
+POST         /leads/{lead}/notes [lead]
+GET,HEAD     /go/qsx/{uuid}/thank-you [uuid]
+GET,HEAD     /leads/{lead}/quotesheets/create [lead]
+DELETE       /leads/{lead}/quotesheets/{quotesheet} [lead, quotesheet]
+GET,HEAD     /go/qsx/{uuid} [uuid]
+POST         /leads/{lead}/quotesheets/{quotesheet}/send [lead, quotesheet]
+GET,HEAD     /leads/{lead}/quotesheets/{quotesheet}/send [lead, quotesheet]
+POST         /leads/{lead}/quotesheets/{quotesheet}/validate-email [lead, quotesheet]
+GET,HEAD     /leads/{lead}/quotesheets/{quotesheet} [lead, quotesheet]
+POST         /go/qsx/{uuid}/start [uuid]
+POST         /leads/{lead}/quotesheets/{quotesheet}/update-name [lead, quotesheet]
+GET,HEAD     /go/qsx/{uuid}/selected [uuid]
+DELETE       /leads/{lead}/tags/{tag} [lead, tag]
+POST         /leads/{lead}/tags [lead]
+DELETE       /leads/{lead}/dependants/{dependant} [lead, dependant]
+POST         /leads/{lead}/dependants [lead]
+PUT          /leads/{lead}/dependants/{dependant} [lead, dependant]
+GET,HEAD     /leaderboard
+PUT          /leads/{lead}/active/{new_policy} [lead, new_policy]
+POST         /leads/{lead}/billing-info [lead]
+PUT          /leads/{lead}/billing-info [lead]
+POST         /leads/{lead}/bucket/{bucket}/transfer [lead, bucket]
+PUT          /leads/{lead}/cancelled/{new_policy} [lead, new_policy]
+POST         /leads/{lead}/change-source [lead]
+GET,HEAD     /leads/create
+GET,HEAD     /leads/{lead}/compose-email [lead]
+POST         /leads/{lead}/compose-email [lead]
+GET,HEAD     /leads/{lead}/compose-sms [lead]
+POST         /leads/{lead}/send-sms [lead]
+GET,HEAD     /leads/{lead}/datetime [lead]
+DELETE       /leads/{lead} [lead]
+POST         /leads/{lead}/dnc [lead]
+DELETE       /leads/{lead}/doctors/{doctor} [lead, doctor]
+GET,HEAD     /leads/{lead}/doctors [lead]
+POST         /leads/{lead}/doctors [lead]
+POST         /leads/{lead}/doctors/{doctor} [lead, doctor]
+GET,HEAD     /leads/{lead}/edit [lead]
+PUT          /leads/{lead}/expiring-ignore/{transaction} [lead, transaction]
+GET,HEAD     /leads/{lead}/files/create [lead]
+DELETE       /leads/{lead}/files/{file} [lead, file]
+GET,HEAD     /leads/{lead}/files/{file}/download [lead, file]
+GET,HEAD     /leads/{lead}/files/{file}/edit [lead, file]
+GET,HEAD     /leads/{lead}/files [lead]
+GET,HEAD     /leads/{lead}/files/{file} [lead, file]
+POST         /leads/{lead}/files [lead]
+PUT,PATCH    /leads/{lead}/files/{file} [lead, file]
+GET,HEAD     /leads/{lead}/form-submissions/create [lead]
+DELETE       /leads/{lead}/form-submissions/{form_submission} [lead, form_submission]
+GET,HEAD     /leads/{lead}/form-submissions/{form_submission}/edit [lead, form_submission]
+GET,HEAD     /leads/{lead}/form-submissions [lead]
+GET,HEAD     /leads/{lead}/form-submissions/{form_submission} [lead, form_submission]
+POST         /leads/{lead}/form-submissions [lead]
+PUT,PATCH    /leads/{lead}/form-submissions/{form_submission} [lead, form_submission]
+GET,HEAD     /leads/{lead}/hst-lock-check [lead]
+GET,HEAD     /leads
+PATCH        /leads/{lead}/bulk-update-licenses [lead]
+DELETE       /leads/{lead}/licenses/{license} [lead, license]
+GET,HEAD     /leads/{lead}/licenses [lead]
+GET,HEAD     /leads/{lead}/licenses/{license} [lead, license]
+POST         /leads/{lead}/licenses [lead]
+PUT,PATCH    /leads/{lead}/licenses/{license} [lead, license]
+DELETE       /leads/{lead}/login/{loginLead}/delete [lead, loginLead]
+POST         /leads/{lead}/login [lead]
+POST         /leads/{lead}/login/{loginLead}/update [lead, loginLead]
+POST         /leads/{lead}/mark-phone-valid/{phone_id} [lead, phone_id]
+DELETE       /leads/{lead}/medications/{medication} [lead, medication]
+GET,HEAD     /leads/{lead}/medications [lead]
+POST         /leads/{lead}/medications [lead]
+POST         /leads/{lead}/medications/{medication} [lead, medication]
+DELETE       /leads/{lead}/new-policy-temp/{new_policy} [lead, new_policy]
+POST         /leads/{lead}/new-policy-temp [lead]
+DELETE       /leads/{lead}/new-policy/{new_policy} [lead, new_policy]
+GET,HEAD     /leads/{lead}/new-policy [lead]
+GET,HEAD     /leads/{lead}/new-policy/{new_policy} [lead, new_policy]
+POST         /leads/{lead}/new-policy [lead]
+PUT,PATCH    /leads/{lead}/new-policy/{new_policy} [lead, new_policy]
+POST         /leads/{lead}/refer-to-department [lead]
+PUT          /leads/{lead}/refer-to-department/update [lead]
+PUT          /leads/{lead}/renew-policy/{transaction} [lead, transaction]
+GET,HEAD     /leads/{lead} [lead]
+GET,HEAD     /leads/{lead}/ssn [lead]
+POST         /leads/{lead}/ssn [lead]
+POST         /leads
+GET,HEAD     /leads/{lead}/types/create [lead]
+DELETE       /leads/{lead}/types/{type} [lead, type]
+GET,HEAD     /leads/{lead}/types/{type}/edit [lead, type]
+GET,HEAD     /leads/{lead}/types [lead]
+GET,HEAD     /leads/{lead}/types/{type} [lead, type]
+POST         /leads/{lead}/types [lead]
+PUT,PATCH    /leads/{lead}/types/{type} [lead, type]
+PUT,PATCH    /leads/{lead} [lead]
+POST         /leads/{lead}/update-affiliate [lead]
+POST         /leads/{lead}/user/{user}/send-email [lead, user]
+POST         /leads/{lead}/user/{user}/send-text [lead, user]
+POST         /leads/{lead}/user/{user}/transfer [lead, user]
+GET,HEAD     /login-as/leave
+GET,HEAD     /login
+GET,HEAD     /login-as/{other_user} [other_user]
+POST         /logout
+GET,HEAD     /manage-carriers/{manage_carrier}/brochures/create [manage_carrier]
+DELETE       /manage-carriers/{manage_carrier}/brochures/{brochure} [manage_carrier, brochure]
+GET,HEAD     /manage-carriers/{manage_carrier}/brochures/{brochure}/edit [manage_carrier, brochure]
+GET,HEAD     /manage-carriers/{manage_carrier}/brochures [manage_carrier]
+GET,HEAD     /manage-carriers/{manage_carrier}/brochures/{brochure} [manage_carrier, brochure]
+POST         /manage-carriers/{manage_carrier}/brochures [manage_carrier]
+POST         /manage-carriers/{manage_carrier}/brochures/{brochure}/update [manage_carrier, brochure]
+GET,HEAD     /manage-carriers/create
+DELETE       /manage-carriers/{manage_carrier} [manage_carrier]
+GET,HEAD     /manage-carriers/{manage_carrier}/edit [manage_carrier]
+GET,HEAD     /manage-carriers
+GET,HEAD     /manage-carriers/{manage_carrier}/products/create [manage_carrier]
+DELETE       /manage-carriers/{manage_carrier}/products/{product} [manage_carrier, product]
+GET,HEAD     /manage-carriers/{manage_carrier}/products/{product}/edit [manage_carrier, product]
+GET,HEAD     /manage-carriers/{manage_carrier}/products [manage_carrier]
+GET,HEAD     /manage-carriers/{manage_carrier}/products/{product} [manage_carrier, product]
+POST         /manage-carriers/{manage_carrier}/products [manage_carrier]
+PUT,PATCH    /manage-carriers/{manage_carrier}/products/{product} [manage_carrier, product]
+POST         /manage-carriers/{manage_carrier}/qs-products/{qsProduct}/copy [manage_carrier, qsProduct]
+GET,HEAD     /manage-carriers/{manage_carrier}/qs-products/create [manage_carrier]
+DELETE       /manage-carriers/{manage_carrier}/qs-products/{qs_product} [manage_carrier, qs_product]
+GET,HEAD     /manage-carriers/{manage_carrier}/qs-products/{qs_product}/edit [manage_carrier, qs_product]
+GET,HEAD     /manage-carriers/{manage_carrier}/qs-products [manage_carrier]
+GET,HEAD     /manage-carriers/{manage_carrier}/qs-products/{qs_product}/qa-bullets/create [manage_carrier, qs_product]
+DELETE       /manage-carriers/{manage_carrier}/qs-products/{qs_product}/qa-bullets/{qa_bullet} [manage_carrier, qs_product, qa_bullet]
+GET,HEAD     /manage-carriers/{manage_carrier}/qs-products/{qs_product}/qa-bullets/{qa_bullet}/edit [manage_carrier, qs_product, qa_bullet]
+GET,HEAD     /manage-carriers/{manage_carrier}/qs-products/{qs_product}/qa-bullets [manage_carrier, qs_product]
+PUT          /manage-carriers/{manage_carrier}/qs-products/{qsProduct}/qa-bullets-reorder [manage_carrier, qsProduct]
+GET,HEAD     /manage-carriers/{manage_carrier}/qs-products/{qs_product}/qa-bullets/{qa_bullet} [manage_carrier, qs_product, qa_bullet]
+POST         /manage-carriers/{manage_carrier}/qs-products/{qs_product}/qa-bullets [manage_carrier, qs_product]
+PUT,PATCH    /manage-carriers/{manage_carrier}/qs-products/{qs_product}/qa-bullets/{qa_bullet} [manage_carrier, qs_product, qa_bullet]
+GET,HEAD     /manage-carriers/{manage_carrier}/qs-products/{qs_product} [manage_carrier, qs_product]
+POST         /manage-carriers/{manage_carrier}/qs-products [manage_carrier]
+GET,HEAD     /manage-carriers/{manage_carrier}/qs-products/{qs_product}/text-bullets/create [manage_carrier, qs_product]
+DELETE       /manage-carriers/{manage_carrier}/qs-products/{qs_product}/text-bullets/{text_bullet} [manage_carrier, qs_product, text_bullet]
+GET,HEAD     /manage-carriers/{manage_carrier}/qs-products/{qs_product}/text-bullets/{text_bullet}/edit [manage_carrier, qs_product, text_bullet]
+GET,HEAD     /manage-carriers/{manage_carrier}/qs-products/{qs_product}/text-bullets [manage_carrier, qs_product]
+PUT          /manage-carriers/{manage_carrier}/qs-products/{qsProduct}/text-bullets-reorder [manage_carrier, qsProduct]
+GET,HEAD     /manage-carriers/{manage_carrier}/qs-products/{qs_product}/text-bullets/{text_bullet} [manage_carrier, qs_product, text_bullet]
+POST         /manage-carriers/{manage_carrier}/qs-products/{qs_product}/text-bullets [manage_carrier, qs_product]
+PUT,PATCH    /manage-carriers/{manage_carrier}/qs-products/{qs_product}/text-bullets/{text_bullet} [manage_carrier, qs_product, text_bullet]
+PUT          /manage-carriers/{manage_carrier}/qs-products/{qsProduct}/archive-toggle [manage_carrier, qsProduct]
+PUT,PATCH    /manage-carriers/{manage_carrier}/qs-products/{qs_product} [manage_carrier, qs_product]
+GET,HEAD     /manage-carriers/{manage_carrier} [manage_carrier]
+POST         /manage-carriers
+PUT,PATCH    /manage-carriers/{manage_carrier} [manage_carrier]
+GET,HEAD     /manage/product-categories
+PUT          /manage/product-categories}
+POST         /manage/product-categories/updateRankByAllCategories
+GET,HEAD     /bucket-access-agency-shared-buckets
+GET,HEAD     /bucket-access/{agentBucketSharingBucket}/click-to-dial-agent-shared-bucket [agentBucketSharingBucket]
+POST         /bucket-access/{agentBucketSharingBucket}/purchase-lead-agent-shared-bucket [agentBucketSharingBucket]
+GET,HEAD     /bucket-access-agent-shared-buckets
+GET,HEAD     /bucket-access/{bucketAccess}/click-to-dial [bucketAccess]
+GET,HEAD     /bucket-access/{bucket}/click-to-dial-shared-bucket [bucket]
+POST         /bucket-access/{bucket}/discard-lead [bucket]
+GET,HEAD     /bucket-access
+POST         /hst-buckets/{hstBucketId}/purchase-lead [hstBucketId]
+GET,HEAD     /marketplace
+POST         /bucket-access/{bucketAccess}/purchase-ctd-lead/{lead} [bucketAccess, lead]
+POST         /bucket-access/{agentBucketSharingBucket}/purchase-ctd-lead-agent-shared-bucket/{lead} [agentBucketSharingBucket, lead]
+POST         /bucket-access/{bucket}/purchase-ctd-lead-shared-bucket/{lead} [bucket, lead]
+POST         /bucket-access/{bucketAccess}/purchase-lead [bucketAccess]
+POST         /bucket-access/{bucket}/purchase-lead-shared-bucket [bucket]
+PUT          /filtered-states/{user} [user]
+POST         /mass-transfer/count-leads
+POST         /mass-transfer/get-leads
+GET,HEAD     /mass-transfer
+POST         /mass-transfer/process
+POST         /master-carrier-products/{product}/toggle-active [product]
+GET,HEAD     /medication-password-checked-recently/{lead} [lead]
+GET,HEAD     /meetings/create
+DELETE       /meetings/{event} [event]
+GET,HEAD     /meetings
+GET,HEAD     /meetings/{event} [event]
+POST         /meetings
+PUT          /meetings/{event} [event]
+GET,HEAD     /mgas/create
+DELETE       /mgas/{mga} [mga]
+GET,HEAD     /mgas/{mga}/edit [mga]
+GET,HEAD     /mgas
+GET,HEAD     /mgas/{mga} [mga]
+POST         /mgas
+PUT,PATCH    /mgas/{mga} [mga]
+POST         /microsoft-account/{microsoftAccount}/calendar [microsoftAccount]
+DELETE       /microsoft-account/{microsoftAccount} [microsoftAccount]
+GET,HEAD     /microsoft-account
+GET,HEAD     /oauth/microsoft
+POST         /api/mms/upload-images
+GET,HEAD     /mobile-calendar/{apiKey} [apiKey]
+GET,HEAD     /mobile-calendar-events/{apiKey} [apiKey]
+GET,HEAD     /my-working-hours
+POST         /my-working-hours
+POST         /notifications/{id}/mark-as-read [id]
+POST         /notifications/mark-as-read-invalid-smtp-auth
+GET,HEAD     /confirm-password
+POST         /forgot-password
+GET,HEAD     /forgot-password
+GET,HEAD     /reset-password/{token} [token]
+POST         /reset-password
+GET,HEAD     /pending-email-blasts
+POST         /personal-appointments/{calendarEvent}/markComplete [calendarEvent]
+GET,HEAD     /personal-buckets/{id}/access [id]
+GET,HEAD     /personal-buckets/create
+DELETE       /personal-buckets/{personal_bucket} [personal_bucket]
+GET,HEAD     /personal-buckets/{personal_bucket}/edit [personal_bucket]
+GET,HEAD     /personal-buckets
+GET,HEAD     /personal-buckets/{personal_bucket} [personal_bucket]
+POST         /personal-buckets
+PUT,PATCH    /personal-buckets/{personal_bucket} [personal_bucket]
+GET,HEAD     /personal-buckets/{bucket}/sold-leads [bucket]
+POST         /plans/{plan}/answers [plan]
+GET,HEAD     /policy-imports/create
+DELETE       /policy-imports/{policy_import} [policy_import]
+GET,HEAD     /policy-imports/{policy_import}/edit [policy_import]
+POST         /policy-imports/import
+GET,HEAD     /policy-imports
+GET,HEAD     /policy-imports/{policy_import} [policy_import]
+POST         /policy-imports
+PUT,PATCH    /policy-imports/{policy_import} [policy_import]
+GET,HEAD     /form/{uuid} [uuid]
+POST         /form/{uuid} [uuid]
+GET,HEAD     /quotesheet-email-templates/create
+DELETE       /quotesheet-email-templates/{quotesheet_email_template} [quotesheet_email_template]
+GET,HEAD     /quotesheet-email-templates/{quotesheet_email_template}/edit [quotesheet_email_template]
+GET,HEAD     /quotesheet-email-templates
+GET,HEAD     /quotesheet-email-templates/{quotesheet_email_template} [quotesheet_email_template]
+POST         /quotesheet-email-templates
+PUT,PATCH    /quotesheet-email-templates/{quotesheet_email_template} [quotesheet_email_template]
+GET,HEAD     /quotesheet-logo
+DELETE       /quotesheet-logo
+POST         /quotesheet-logo
+GET,HEAD     /quotesheet-plan-templates/create
+DELETE       /quotesheet-plan-templates/{template} [template]
+GET,HEAD     /quotesheet-plan-templates
+DELETE       /quotesheet-plan-templates/{template}/products/{product} [template, product]
+POST         /quotesheet-plan-templates/{template}/products/{product}/move-down [template, product]
+POST         /quotesheet-plan-templates/{template}/products/{product}/move-up [template, product]
+PUT          /quotesheet-plan-templates/{template}/products/reorder [template]
+POST         /quotesheet-plan-templates/{template}/products [template]
+POST         /quotesheet-plan-templates/{template}/products/{product} [template, product]
+GET,HEAD     /quotesheet-plan-templates/{template} [template]
+POST         /quotesheet-plan-templates
+POST         /quotesheet-plan-templates/{template}/update-name [template]
+POST         /quotesheet-plan-templates/{template}/update-is-agency [template]
+POST         /plans/{plan}/products/{product}/move-down [plan, product]
+POST         /plans/{plan}/products/{product}/move-up [plan, product]
+POST         /quotesheet-plans/{plan}/copy [plan]
+POST         /quotesheets/{quotesheet}/plans [quotesheet]
+POST         /quotesheets/{quotesheet}/plans-from-template [quotesheet]
+DELETE       /quotesheets/{quotesheet}/plans/{plan} [quotesheet, plan]
+POST         /quotesheets/{quotesheet}/plans/{plan}/move-down [quotesheet, plan]
+POST         /quotesheets/{quotesheet}/plans/{plan}/move-up [quotesheet, plan]
+DELETE       /quotesheets/{quotesheet}/plans/{plan}/products/{product} [quotesheet, plan, product]
+POST         /quotesheets/{quotesheet}/plans/{plan}/products [quotesheet, plan]
+PATCH        /quotesheets/{quotesheet}/plans/{plan}/products/{product} [quotesheet, plan, product]
+GET,HEAD     /recruiting-action-schedules/create
+DELETE       /recruiting-action-schedules/{recruiting_action_schedule} [recruiting_action_schedule]
+GET,HEAD     /recruiting-action-schedules/{recruiting_action_schedule}/edit [recruiting_action_schedule]
+GET,HEAD     /recruiting-action-schedules
+GET,HEAD     /recruiting-action-schedules/{recruiting_action_schedule} [recruiting_action_schedule]
+POST         /recruiting-action-schedules
+PUT,PATCH    /recruiting-action-schedules/{recruiting_action_schedule} [recruiting_action_schedule]
+GET,HEAD     /recruiting-custom-tag/create
+DELETE       /recruiting-custom-tag/{recruiting_custom_tag} [recruiting_custom_tag]
+GET,HEAD     /recruiting-custom-tag/{recruiting_custom_tag}/edit [recruiting_custom_tag]
+GET,HEAD     /recruiting-custom-tag
+GET,HEAD     /recruiting-custom-tag/{recruiting_custom_tag} [recruiting_custom_tag]
+POST         /recruiting-custom-tag
+PUT,PATCH    /recruiting-custom-tag/{recruiting_custom_tag} [recruiting_custom_tag]
+GET,HEAD     /recruiting-custom-tag/{recruitingCustomTag}/view [recruitingCustomTag]
+GET,HEAD     /recruiting-email-templates/create
+DELETE       /recruiting-email-templates/{recruiting_email_template} [recruiting_email_template]
+GET,HEAD     /recruiting-email-templates/{recruiting_email_template}/edit [recruiting_email_template]
+GET,HEAD     /recruiting-email-templates
+GET,HEAD     /recruiting-email-templates/{recruiting_email_template} [recruiting_email_template]
+POST         /recruiting-email-templates
+PUT,PATCH    /recruiting-email-templates/{recruiting_email_template} [recruiting_email_template]
+GET,HEAD     /recruiting-leads/create
+DELETE       /recruiting-leads/{recruiting_lead} [recruiting_lead]
+GET,HEAD     /recruiting-leads/{recruiting_lead}/edit [recruiting_lead]
+GET,HEAD     /recruiting-leads
+GET,HEAD     /recruiting-leads-stats/pending-contracting-list
+GET,HEAD     /recruiting-leads/{recruiting_lead} [recruiting_lead]
+GET,HEAD     /recruiting-leads-stats/stats
+POST         /recruiting-leads
+PUT,PATCH    /recruiting-leads/{recruiting_lead} [recruiting_lead]
+GET,HEAD     /recruiting-locations/create
+DELETE       /recruiting-locations/{recruiting_location} [recruiting_location]
+GET,HEAD     /recruiting-locations/{recruiting_location}/edit [recruiting_location]
+GET,HEAD     /recruiting-locations
+GET,HEAD     /recruiting-locations/{recruiting_location} [recruiting_location]
+POST         /recruiting-locations
+PUT,PATCH    /recruiting-locations/{recruiting_location} [recruiting_location]
+GET,HEAD     /recruiting-sources/create
+DELETE       /recruiting-sources/{recruiting_source} [recruiting_source]
+GET,HEAD     /recruiting-sources/{recruiting_source}/edit [recruiting_source]
+GET,HEAD     /recruiting-sources
+GET,HEAD     /recruiting-sources/{recruiting_source} [recruiting_source]
+POST         /recruiting-sources
+PUT,PATCH    /recruiting-sources/{recruiting_source} [recruiting_source]
+GET,HEAD     /recruiting-tasks/create
+DELETE       /recruiting-tasks/{recruiting_task} [recruiting_task]
+GET,HEAD     /recruiting-tasks/{recruiting_task}/edit [recruiting_task]
+GET,HEAD     /recruiting-tasks
+GET,HEAD     /recruiting-tasks/{recruiting_task} [recruiting_task]
+POST         /recruiting-tasks
+PUT,PATCH    /recruiting-tasks/{recruiting_task} [recruiting_task]
+GET,HEAD     /recruiting-text-templates/create
+DELETE       /recruiting-text-templates/{recruiting_text_template} [recruiting_text_template]
+GET,HEAD     /recruiting-text-templates/{recruiting_text_template}/edit [recruiting_text_template]
+GET,HEAD     /recruiting-text-templates
+GET,HEAD     /recruiting-text-templates/{recruiting_text_template} [recruiting_text_template]
+POST         /recruiting-text-templates
+PUT,PATCH    /recruiting-text-templates/{recruiting_text_template} [recruiting_text_template]
+GET,HEAD     /recruiting-voicemail-scripts/create
+DELETE       /recruiting-voicemail-scripts/{recruiting_voicemail_script} [recruiting_voicemail_script]
+GET,HEAD     /recruiting-voicemail-scripts/{recruiting_voicemail_script}/edit [recruiting_voicemail_script]
+GET,HEAD     /recruiting-voicemail-scripts
+GET,HEAD     /recruiting-voicemail-scripts/{recruiting_voicemail_script} [recruiting_voicemail_script]
+POST         /recruiting-voicemail-scripts
+PUT,PATCH    /recruiting-voicemail-scripts/{recruiting_voicemail_script} [recruiting_voicemail_script]
+GET,HEAD     /report/agency
+GET,HEAD     /report/agency-bucket-sharing
+GET,HEAD     /report/agency-bucket-sharing/data
+POST         /report/agency-bucket-sharing/export
+GET,HEAD     /report/agency-bucks
+GET,HEAD     /report/agency-credit
+GET,HEAD     /report/agency-ledger
+GET,HEAD     /report/agency/data
+POST         /report/agency/export
+GET,HEAD     /report/agency/team-members
+GET,HEAD     /report/agent
+GET,HEAD     /report/agent-carrier/data
+GET,HEAD     /report/agent-carrier/data/export
+GET,HEAD     /report/agent-carrier/export-download
+GET,HEAD     /report/agent-carrier
+GET,HEAD     /report/agent-efficiency
+GET,HEAD     /report/agent-lead-follow-up
+GET,HEAD     /report/agent-states
+GET,HEAD     /report/agent-states/export
+GET,HEAD     /report/agent-states/print
+GET,HEAD     /report/bad-phone-credit
+GET,HEAD     /report/bdc
+GET,HEAD     /report/bdc-agent
+GET,HEAD     /report/bdc-source
+GET,HEAD     /report/billing
+GET,HEAD     /report/billing/data
+POST         /report/billing/export
+GET,HEAD     /report/billing/export/status
+GET,HEAD     /report/bucket-auto-responder
+GET,HEAD     /report/bucket-pull
+GET,HEAD     /report/bucket-pull/data
+GET,HEAD     /report/bucket-pull/data/click-to-calls
+GET,HEAD     /report/bucket-pull/data/users
+POST         /report/bucket-pull/export
+GET,HEAD     /report/commission-carriers
+GET,HEAD     /report/commission-carriers/data
+POST         /report/commission-carriers/export
+GET,HEAD     /report/custom-reports/columns
+GET,HEAD     /report/custom-reports/create
+GET,HEAD     /report/custom-reports/data
+DELETE       /report/custom-reports/{customReport} [customReport]
+GET,HEAD     /report/custom-reports/{customReport}/edit [customReport]
+POST         /report/custom-reports/export
+GET,HEAD     /report/custom-reports
+GET,HEAD     /report/custom-reports/{customReport} [customReport]
+POST         /report/custom-reports
+PUT          /report/custom-reports/{customReport} [customReport]
+PATCH        /report/custom-reports/{customReport}/column-order [customReport]
+GET,HEAD     /report/grace-pull
+GET,HEAD     /report/grace-pull/data
+GET,HEAD     /report/hst-and-primary-email
+GET,HEAD     /report/last-login
+GET,HEAD     /report/last-login/data
+GET,HEAD     /report/last-login/export
+GET,HEAD     /report/last-login/data/sale-info
+GET,HEAD     /report/lead-rejection
+GET,HEAD     /report/lead-sources
+GET,HEAD     /report/lead-sources/bad-phone
+GET,HEAD     /report/lead-sources/data
+GET,HEAD     /report/lead-sources/dead
+POST         /report/lead-sources/dispo-file
+GET,HEAD     /report/lead-sources/leads
+GET,HEAD     /report/lead-sources/sales
+GET,HEAD     /report/lead-sources2
+GET,HEAD     /report/lead-status-ratio
+GET,HEAD     /report/lead-status-ratio/data
+GET,HEAD     /report/lead-status-ratio/leads-data
+GET,HEAD     /report/negative-balance
+GET,HEAD     /report/product
+GET,HEAD     /report/products
+GET,HEAD     /report/products/data
+POST         /report/products/export
+GET,HEAD     /report/recruiting-manager-report
+GET,HEAD     /report/recruiting-manager-report/data
+GET,HEAD     /report/refer-to-department
+GET,HEAD     /report/referral-user-report
+POST         /report/referral-user-report/export
+GET,HEAD     /report/referral-user-report/{lead}/sales [lead]
+GET,HEAD     /report/rr
+GET,HEAD     /report/sale-listing
+GET,HEAD     /report/sale-listing/data
+POST         /report/sale-listing/export
+GET,HEAD     /report/sales-credit
+GET,HEAD     /report/sales-credit/data
+POST         /report/sales-credit/export
+GET,HEAD     /report/sales-credit/products
+GET,HEAD     /report/split-sale
+GET,HEAD     /report/split-sale/data
+POST         /report/split-sale/export
+GET,HEAD     /report/state
+GET,HEAD     /report/state-new
+POST         /request-carriers/cancel
+POST         /request-carriers
+PUT          /rr_group/{rr_group}/lead-program/is_active [rr_group]
+PUT          /rr_group/{rr_group}/lead-program [rr_group]
+DELETE       /rr_groups/{rr_group}/agents-delete [rr_group]
+PUT          /rr_groups/{rr_group}/agents/entries [rr_group]
+POST         /rr_groups/{rr_group}/agents [rr_group]
+GET,HEAD     /rr_groups/create
+DELETE       /rr_groups/{rr_group} [rr_group]
+GET,HEAD     /rr_groups/{rr_group}/distribution-log [rr_group]
+GET,HEAD     /rr_groups/{rr_group}/edit [rr_group]
+GET,HEAD     /rr_groups
+PUT          /rr_groups/{rr_group}/members/details [rr_group]
+GET,HEAD     /rr_groups/members/{rr_group} [rr_group]
+PUT          /rr_group-members/{member}/override-states [member]
+PUT          /rr_groups/{rr_group}/members [rr_group]
+PUT          /rr_group-members/{member}/states-used-option [member]
+GET,HEAD     /rr_groups/{rr_group} [rr_group]
+POST         /rr_groups
+PUT,PATCH    /rr_groups/{rr_group} [rr_group]
+POST         /rtb/{source}/allstates [source]
+GET,HEAD     /rtb/{source} [source]
+POST         /rtb/{source} [source]
+GET,HEAD     /sale-sharing/{saleSharing}/carriers [saleSharing]
+DELETE       /sale-sharing/{saleSharing}/destroy [saleSharing]
+GET,HEAD     /sale-sharing/users
+GET,HEAD     /sale-sharing/mount
+POST         /sale-sharing
+POST         /sale-sharing/{saleSharing}/toggle-active [saleSharing]
+PUT          /sale-sharing/{saleSharing}/carriers [saleSharing]
+GET,HEAD     /sanctum/csrf-cookie
+GET,HEAD     /admin/commission-statements/{commissionStatement}/progress [commissionStatement]
+GET,HEAD     /users/{user}/setup-intent [user]
+GET,HEAD     /users/{user}/setup-intent-bucket-sharing/{ownerUser} [user, ownerUser]
+POST         /billing/agent-subscription-invoices/{invoice}/pay [invoice]
+GET,HEAD     /billing/subscription-invoices/{invoiceNumber}/receipt-pdf [invoiceNumber]
+GET,HEAD     /billing/subscription-invoices/{invoiceNumber}/receipt [invoiceNumber]
+GET,HEAD     /billing/subscription-invoices/{invoiceNumber}/receipt-old [invoiceNumber]
+GET,HEAD     /super-admin-tools/email-template-test/check-schedule
+GET,HEAD     /super-admin-tools/email-template-test
+POST         /super-admin-tools/email-template-test/send
+GET,HEAD     /super-admin-tools/email-template-test/templates
+GET,HEAD     /super-admin-tools/email-template-test/users
+DELETE       /super-admin-blacklist/{blacklist} [blacklist]
+GET,HEAD     /super-admin/blacklist
+POST         /super-admin/blacklist
+DELETE       /billing/sa-subscription-agencies/{agency}/agent-fee-overrides/{override} [agency, override]
+GET,HEAD     /billing/sa-subscription-agencies/{agency}/agent-fee-overrides [agency]
+POST         /billing/sa-subscription-agencies/{agency}/agent-fee-overrides [agency]
+PUT          /billing/sa-subscription-agencies/{agency}/agent-fee-overrides/{override} [agency, override]
+GET,HEAD     /billing/sa-subscription-agencies/{agency}/agents/{user}/accounts-paying-for [agency, user]
+GET,HEAD     /billing/sa-subscription-agencies/{agency}/agents [agency]
+POST         /billing/sa-subscription-agencies/{agency}/agents/{user}/suspend [agency, user]
+POST         /billing/sa-subscription-agencies/{agency}/agents/{user}/unsuspend [agency, user]
+GET,HEAD     /billing/sa-subscription-agencies
+DELETE       /billing/sa-subscription-agencies/{agency}/leader-pays/{leaderPay} [agency, leaderPay]
+GET,HEAD     /billing/sa-subscription-agencies/{agency}/leader-pays [agency]
+POST         /billing/sa-subscription-agencies/{agency}/leader-pays [agency]
+GET,HEAD     /billing/sa-subscription-agencies/{agency} [agency]
+POST         /billing/sa-subscription-agencies/{agency}/billing-option [agency]
+POST         /billing/sa-subscription-agencies/{agency}/billing-start-date [agency]
+POST         /billing/sa-subscription-agencies/{agency}/free-look-period [agency]
+POST         /billing/sa-subscription-agencies/{agency}/agent-fee [agency]
+GET,HEAD     /billing/sa-subscription-invoices
+POST         /billing/sa-subscription-invoices/{invoice}/void [invoice]
+GET,HEAD     /super-search
+GET,HEAD     /support
+POST         /support
+POST         /sync-leb-twilio-primary-profile
+GET,HEAD     /system-training-admin/create
+DELETE       /system-training-admin/{system_training_admin} [system_training_admin]
+GET,HEAD     /system-training-admin/{system_training_admin}/edit [system_training_admin]
+GET,HEAD     /system-training-admin
+DELETE       /system-training-admin/{systemTrainingAdmin}/resources/{resource}/delete [systemTrainingAdmin, resource]
+POST         /system-training-admin/{systemTrainingAdmin}/resources [systemTrainingAdmin]
+PUT          /system-training-admin/{systemTrainingAdmin}/resources/{resource} [systemTrainingAdmin, resource]
+GET,HEAD     /system-training-admin/{system_training_admin} [system_training_admin]
+POST         /system-training-admin
+PUT,PATCH    /system-training-admin/{system_training_admin} [system_training_admin]
+POST         /system-training/{feature}/agent-notes [feature]
+GET,HEAD     /system-training/{feature} [feature]
+DELETE       /tasks/{task} [task]
+GET,HEAD     /tasks
+POST         /tasks
+PUT          /tasks/{task} [task]
+GET,HEAD     /team-directory/create
+DELETE       /team-directory/{team_directory} [team_directory]
+GET,HEAD     /team-directory/{team_directory}/edit [team_directory]
+GET,HEAD     /team-directory/has-accesses
+GET,HEAD     /team-directory
+GET,HEAD     /team-directory/{team_directory} [team_directory]
+POST         /team-directory
+PUT,PATCH    /team-directory/{team_directory} [team_directory]
+GET,HEAD     /text-campaigns/create
+GET,HEAD     /text-campaigns/{campaign}/criteria [campaign]
+POST         /text-campaigns/{campaign}/criteria [campaign]
+DELETE       /text-campaigns/{campaign}/delete [campaign]
+GET,HEAD     /text-campaigns/{campaign}/details [campaign]
+POST         /text-campaigns/{campaign}/details [campaign]
+GET,HEAD     /text-campaigns
+GET,HEAD     /text-campaigns/{campaign}/messages/create [campaign]
+DELETE       /text-campaigns/{campaign}/messages/{message} [campaign, message]
+GET,HEAD     /text-campaigns/{campaign}/messages [campaign]
+GET,HEAD     /text-campaigns/{campaign}/messages/{message} [campaign, message]
+POST         /text-campaigns/{campaign}/messages [campaign]
+POST         /text-campaigns/{campaign}/messages/{message}/update [campaign, message]
+GET,HEAD     /text-campaigns/{campaign}/sending-times [campaign]
+POST         /text-campaigns/{campaign}/sending-times [campaign]
+POST         /text-inbox/{textInbox}/messages/send [textInbox]
+POST         /activate-multiple-inboxes
+POST         /text-inbox/{textInbox}/archive [textInbox]
+POST         /archive-multiple-inboxes
+POST         /text-inbox/discard-lead/{lead} [lead]
+POST         /text-inbox/{textInbox}/grabLead/{lead} [textInbox, lead]
+POST         /text-inbox/{textInbox}/sendToRR/{lead} [textInbox, lead]
+POST         /text-inbox/{textInbox}/activate [textInbox]
+POST         /text-inbox/{textInbox}/transferToAgent/{lead} [textInbox, lead]
+POST         /text-inbox/{textInbox}/transferToBucket/{lead} [textInbox, lead]
+GET,HEAD     /text-signature
+POST         /text-signature
+GET,HEAD     /text-templates/create
+DELETE       /text-templates/{text_template} [text_template]
+GET,HEAD     /text-templates/{text_template}/edit [text_template]
+GET,HEAD     /text-templates
+GET,HEAD     /text-templates/{textTemplate}/preview/{lead} [textTemplate, lead]
+GET,HEAD     /text-templates/{text_template} [text_template]
+POST         /text-templates
+PUT,PATCH    /text-templates/{text_template} [text_template]
+GET,HEAD     /text-inbox
+GET,HEAD     /text-template-preview/{textTemplate} [textTemplate]
+GET,HEAD     /timeoff/create
+DELETE       /timeoff/{timeoff} [timeoff]
+GET,HEAD     /timeoff/{timeoff}/edit [timeoff]
+GET,HEAD     /timeoff
+GET,HEAD     /timeoff/{timeoff} [timeoff]
+POST         /timeoff
+PUT,PATCH    /timeoff/{timeoff} [timeoff]
+PUT          /todo-list/{todoList}/update [todoList]
+POST         /todo-list
+GET,HEAD     /transaction/{transaction}/beneficiaries [transaction]
+POST         /transaction/{transaction}/hst-post-sale [transaction]
+POST         /transaction/{transaction}/hst-sync [transaction]
+POST         /twilio-settings/{agency}/add-messaging-service [agency]
+DELETE       /twilio-settings/{agency}/sids/{sids} [agency, sids]
+POST         /twilio-settings/{agency}/sids [agency]
+POST         /twilio-settings/{agency}/sids-update [agency]
+GET,HEAD     /agencies/{agency}/twilio-settings [agency]
+POST         /agencies/{agency}/twilio-onboard [agency]
+POST         /agencies/{agency}/twilio-authorized-representative [agency]
+POST         /agencies/{agency}/twilio-business-address [agency]
+POST         /agencies/{agency}/twilio-business-information [agency]
+POST         /twilio/incoming-sms-webhook
+POST         /twilio/incoming-sms-webhook-fallback
+POST         /twilio/incoming-voice-to-sms-number-webhook
+POST         /twilio/sms-delivery-status
+POST         /twilio/tb-one-add-pn-to-ms
+POST         /twilio/tb-one-remove-pn-from-ms
+GET,HEAD     /user-automations/create
+POST         /user-automations/{automation}/duplicate [automation]
+GET,HEAD     /user-automations
+GET,HEAD     /user-automations/{automation} [automation]
+PATCH        /user-automations/{automation}/toggleActive [automation]
+POST         /user-settings/change-password
+PUT          /user-settings/hst-credentials
+DELETE       /user-settings/hst-credentials
+PUT          /user-settings/hst-credentials/ignore-warning
+GET,HEAD     /user-settings/general
+PUT          /user-settings/my-info
+PUT          /user-settings/update-smtp-configuration
+PUT          /user-settings/update-alert-settings
+PUT          /user-settings/update-primary-mail-transport
+POST         /user-settings/upload-profile-picture
+GET,HEAD     /users/{user}/bucket-sharing/{ownerUser}/balance [user, ownerUser]
+POST         /users/{user}/bucket-sharing/{ownerUser}/balance/purchase [user, ownerUser]
+POST         /users/{user}/bucket-sharing/{ownerUser}/cards/remove [user, ownerUser]
+POST         /users/{user}/bucket-sharing/{ownerUser}/cards/set-primary [user, ownerUser]
+POST         /users/{user}/bucket-sharing/{ownerUser}/cards [user, ownerUser]
+GET,HEAD     /user/{user}/buckets/{bucket}/sharing [user, bucket]
+POST         /user/{user}/buckets/{bucket}/sharing/{sharingTo} [user, bucket, sharingTo]
+POST         /users/{user}/cards-remove [user]
+POST         /users/{user}/cards-set-primary [user]
+POST         /users/{user}/cards [user]
+POST         /users/{user}/credit-adjustment [user]
+GET,HEAD     /users/{user}/credit-adjustment [user]
+GET,HEAD     /users/{user}/credits/export [user]
+GET,HEAD     /users/{user}/credits [user]
+POST         /users/{user}/purchase-credits [user]
+POST         /users/{user}/transfer [user]
+GET,HEAD     /verify-email
+POST         /email/verification-notification
+GET,HEAD     /verify-email/{id}/{hash} [id, hash]
+POST         /verify-credentials
+POST         /verify2fa-resend
+GET,HEAD     /verify2fa
+POST         /verify2fa
+GET,HEAD     /voicemail-scripts/create
+DELETE       /voicemail-scripts/{voicemail_script} [voicemail_script]
+GET,HEAD     /voicemail-scripts/{voicemail_script}/edit [voicemail_script]
+GET,HEAD     /voicemail-scripts
+GET,HEAD     /voicemail-scripts/{voicemail_script} [voicemail_script]
+POST         /voicemail-scripts
+PUT,PATCH    /voicemail-scripts/{voicemail_script} [voicemail_script]
+GET,HEAD     /voicemail-scripts-preview/{voicemailScript} [voicemailScript]

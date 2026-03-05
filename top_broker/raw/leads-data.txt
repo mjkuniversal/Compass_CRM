@@ -1,0 +1,64 @@
+=== SALE LISTING REPORT ===
+Component: Reports/SaleListingReport
+initialFilterDateFrom | string = 2026-03-05
+initialFilterDateTo | string = 2026-03-05
+initialFilterAgentId | number = 8359
+teams | array[236]
+agents | array[1]
+products | array[4006]
+carriers | array[210]
+sources | array[1]
+timezone | string = America/Chicago
+
+=== AGENT-CARRIER REPORT CARRIERS ===
+carriers count: 220
+carrier[0]: {"id":154,"carrier":"ACA - GENERIC"}
+carrier[1]: {"id":35,"carrier":"AETNA (GROUP)"}
+
+=== INITIAL PROPS ===
+keys: component, props, url, version
+props keys: errors, extra, auth, ziggy, flash, currentAgency, agencySharesBuckets, stripe_public_key, stripe_global_public_key, unreadMessagesCount, unreadRecruitingMessagesCount, newLeadsCount, newStatementsCount, csrf_token, productCategories, agency_domain_agency, ui_customization, pendingEmailBlastsCount, failedHstAuthentication, forcedHstPasswordChange, features, googleAccountTokenExpired, microsoftAccountTokenExpired, canResetPassword, status, ip
+
+=== LEAD SOURCE (sources index) FIELDS ===
+  id: number = 17192
+  vendor: string = Referral
+  label: string = Referral
+  lead_type_name: string = Health
+  lead_type_id: number = 1
+  api_code: string = 9D5D20AEA0
+  cost_per_lead: string = 0.00
+  active: number = 1
+  starting_point: string = Assign To Me
+  action_schedule_id: number = 94
+  action_schedule_name: string = Fresh Single Uncontacted
+  rtb_active: number = 0
+  representing_agency: null
+
+=== ACTION SCHEDULE SAMPLE ===
+{"id":111,"name":"Aged Lead Individual","is_agency":"Yes","active":"Yes","user_id":4729,"includesGracePulls":false}
+{"id":96,"name":"Aged Lead Individual - No Email/TXT","is_agency":"Yes","active":"Yes","user_id":4729,"includesGracePulls":true}
+{"id":91,"name":"Aged Leads","is_agency":"Yes","active":"Yes","user_id":4729,"includesGracePulls":true}
+
+=== EMAIL TEMPLATE FIELDS ===
+  id: number = 1728
+  type: string (len=6) = agency
+  user_id: number = 4729
+  agency_id: number = 217
+  name: string (len=29) = Aged Lead - Call 1 - VM/EM/TX
+  subject: string (len=70) = Are You Finding Health Insurance Options Are Getting Very Co
+  body: string (len=810) = <p><span style="font-size: medium;"><em>[firstname]</em></sp
+  location: string (len=1) = B
+  created_at: string (len=27) = 2024-01-26T23:29:30.000000Z
+  updated_at: string (len=27) = 2024-01-26T23:29:30.000000Z
+  legacy_id: number = 2546
+  legacy_migration_at: string (len=19) = 2024-01-26 18:24:52
+  lead_category: string (len=10) = commercial
+
+=== MEETINGS ===
+meetings | object{3}
+showExpired | boolean = false
+
+=== TASKS ===
+leadCategory | string = commercial
+tasks | object{3}: data, links, meta
+  data[0] keys: id, agency_id, user_id, is_agency, is_global, name, is_task, hide_action, created_at, updated_at, legacy_id, legacy_migration_at, active, lead_category

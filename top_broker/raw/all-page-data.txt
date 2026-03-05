@@ -1,0 +1,330 @@
+=== TEXT INBOX ===
+leadCategory | string = commercial
+textInboxes | object{3}: data, links, meta
+textInboxTotalCount | number = 0
+selectedTextInbox | null
+messages | object{1}: data
+agentSmsNumber | string = +14698125045
+mmsSupported | boolean = true
+disconnectedPhoneStatusId | number = 7
+deadStatusId | number = 8
+buckets | array[634] keys: id, user_id, is_agency, agency_id, name, type, distribution_per_hour, distribution_method, selling_price, allow_transfer, tooltip, click_to_dial_script, hours_until_stale, action_on_stale, deleted_at, created_at, updated_at, delayed_dist_rrg_id, new_agents_daily_limit, legacy_id, legacy_migration_at, stale_lead_action, stale_lead_action_bucket_id, stale_lead_action_user_id, stale_lead_action_rrg_id
+rrGroups | array[12] keys: id, user_id, agency_id, rr_group_name, overflow_label, overflow_options, overflow_bucket_id, overflow_rrg_id, overflow_user_id, initial_action_timeframe, lookback, credit_bad_phones, created_at, updated_at, legacy_id, legacy_migration_at, auto_add_new_agents_enabled, auto_add_new_agents_weekly_cap, auto_add_new_agents_daily_cap, auto_add_new_agents_cost_per_lead
+searchQuery | null
+dncReasonId | number = 1
+notInterestedReasonId | number = 2
+alreadyPurchasedReasonId | number = 3
+
+=== MARKETPLACE ===
+allStates | array[52] keys: id, code, name
+loggedInUserLicensedStates | array[0]
+licensedStates | array[0]
+statesUsedAsDistributionFilter | array[0]
+purchaseBucketsAccess | array[12] keys: id, bucket_id, user_id, daily_limit, created_at, updated_at, bucket
+clickToDialBucketsAccess | array[2] keys: id, bucket_id, user_id, daily_limit, created_at, updated_at, bucket
+agents | array[1] keys: id, first_name, last_name, full_name, birthday_literal
+selectedUser | object{56}: id, first_name, last_name, email, title, address, city, state_id, zip, office_phone
+showStatesForSelectedUser | boolean = true
+showPurchaseButton | boolean = true
+totalCreditAmount | string = -50.00
+availableHstCredit | null
+availableAndAllowedNegativeCredits | number = -50
+entries | array[4] keys: id, rr_group_id, user_id, state_id, weekly_cap, daily_cap, override_actsched_id, override_source_id, source_label_overide, lead_owner_price, old_weekly_cap, old_daily_cap, bucket_id, created_at, updated_at, states_used, is_active, hide_from_lead_programs, legacy_id, legacy_migration_at, round_robin_group
+weekly_cap | array[59] sample: [0,1,2]
+daily_cap | array[59] sample: [0,1,2]
+externalAgenciesBucketsAvailable | boolean = false
+
+=== BALANCE MANAGEMENT ===
+type | string = agency
+ownerUser | null
+user | object{52}: id, first_name, last_name, email, title, address, city, state_id, zip, office_phone
+agents | array[4986] keys: id, first_name, last_name, email, title, address, city, state_id, zip, office_phone, call_forwarding_number, mobile_phone, area_code, sms_number, time_zone, is_active, inactive_at, profile_pic, leader_id, billing_profile_id, email_verified_at, created_at, updated_at, stripe_id, pm_type, pm_last_four, trial_ends_at, profile_picture, birthday, npn_number, legacy_id, legacy_migration_at, last_login, force_agent_pay, api_key, calendar_sharing_link, company, tax_id, ssn, from_lead_id, has_commissions, skip_billing, full_name, birthday_literal, roles
+credit_cards | array[0]
+available_credits | string = -50.00
+low_balance_settings | object{1}: data
+autoreplenish_payment_settings | object{1}: data
+transfers | object{1}: data
+
+=== COMMISSION STATEMENTS ===
+logo | string = /storage/files/HBDTaZ3BGL4igtcLGMQVDxU6N5Yvbqqk2DGypV6p.jpg
+filtered_by | object{7}: from, to, year, include_personal_production, chart_show_team_overrides, chart_show_career, agent_selected
+years | array[6] sample: [2021,2022,2023]
+viewNew | boolean = false
+requiresCommissionsAuthorization | boolean = false
+commissionsCalendarHtmlContent | null
+commissionsCalendarLinkText | string = Commissions Calendar
+commissionsCalendarPdfUrl | null
+commissionsCalendarPdfLinkText | string = Commissions Calendar
+commissionsCalendarUrl | null
+commissionsCalendarUrlLinkText | string = View Calendar
+
+=== USER AUTOMATIONS ===
+automations | object{3}: data, links, meta
+  data[0] keys: id, agency_id, name, is_ready, is_active, is_agency, can_update
+canUpdate | boolean = false
+showIsActive | boolean = true
+showRoute | string = user-automations.show
+createRoute | string = user-automations.create
+showIsAgency | boolean = true
+
+=== REPORT-AGENCY.JSON ===
+initialFilterDateFrom | string = 2026-03-05
+initialFilterDateTo | string = 2026-03-05
+avEnabled | boolean = true
+
+=== REPORT-AGENT.JSON ===
+
+=== REPORT-AGENT-CARRIER.JSON ===
+agents | array[1085] keys: id, first_name, last_name, full_name, birthday_literal, roles
+carriers | array[220] keys: id, carrier
+states | array[52] keys: id, name, code
+
+=== REPORT-SALE-LISTING.JSON ===
+initialFilterDateFrom | string = 2026-03-05
+initialFilterDateTo | string = 2026-03-05
+initialFilterAgentId | number = 8359
+teams | array[236] keys: id, first_name, last_name, email, title, address, city, state_id, zip, office_phone, call_forwarding_number, mobile_phone, area_code, sms_number, time_zone, is_active, inactive_at, profile_pic, leader_id, billing_profile_id, email_verified_at, created_at, updated_at, stripe_id, pm_type, pm_last_four, trial_ends_at, profile_picture, birthday, npn_number, legacy_id, legacy_migration_at, last_login, force_agent_pay, api_key, calendar_sharing_link, company, tax_id, ssn, from_lead_id, has_commissions, skip_billing, full_name, birthday_literal, roles
+agents | array[1] keys: id, first_name, last_name, email, title, address, city, state_id, zip, office_phone, call_forwarding_number, mobile_phone, area_code, sms_number, time_zone, is_active, inactive_at, profile_pic, leader_id, billing_profile_id, email_verified_at, created_at, updated_at, stripe_id, pm_type, pm_last_four, trial_ends_at, profile_picture, birthday, npn_number, legacy_id, legacy_migration_at, last_login, force_agent_pay, api_key, calendar_sharing_link, company, tax_id, ssn, from_lead_id, has_commissions, skip_billing, full_name, birthday_literal, roles
+products | array[4006] keys: id, agency_carrier_id, name, multiplier, category_id, default_mga_id, collect_end_date, show_renew_button, track_assisted_sales, policy_numbers, policy_expiring_schedule_id, policy_expiring_days_prior, points, agency_bucks_issued_on_submit, is_active, created_at, updated_at, master_carrier_product_id, hst_product_id, legacy_id, legacy_migration_at
+carriers | array[210] keys: id, carrier_id, agency_id, has_access, default_mga_id, allow_agents_to_request_contract, agency_notes, created_at, updated_at, carrier, products
+sources | array[1] keys: id, vendor, label, user_id, first_name, last_name, starting_point_name, timeframe_bad_phone_credit_hr, timeframe_already_purchased_credit_hr, vendor_label
+timezone | string = America/Chicago
+
+=== REPORT-LEAD-SOURCES.JSON ===
+initialFilterDateFrom | string = 2026-03-05
+initialFilterDateTo | string = 2026-03-05
+agents | array[1] keys: id, first_name, last_name, email, title, address, city, state_id, zip, office_phone, call_forwarding_number, mobile_phone, area_code, sms_number, time_zone, is_active, inactive_at, profile_pic, leader_id, billing_profile_id, email_verified_at, created_at, updated_at, stripe_id, pm_type, pm_last_four, trial_ends_at, profile_picture, birthday, npn_number, legacy_id, legacy_migration_at, last_login, force_agent_pay, api_key, calendar_sharing_link, company, tax_id, ssn, from_lead_id, has_commissions, skip_billing, full_name, birthday_literal, roles
+
+=== REPORT-COMMISSION-CARRIERS.JSON ===
+initialFilterDateFrom | string = 2026-03-05
+initialFilterDateTo | string = 2026-03-05
+timezone | string = America/Chicago
+
+=== REPORT-BUCKET-PULL.JSON ===
+initialFilterDateFrom | string = 2026-03-05
+initialFilterDateTo | string = 2026-03-05
+agents | array[1085] keys: id, first_name, last_name, email, title, address, city, state_id, zip, office_phone, call_forwarding_number, mobile_phone, area_code, sms_number, time_zone, is_active, inactive_at, profile_pic, leader_id, billing_profile_id, email_verified_at, created_at, updated_at, stripe_id, pm_type, pm_last_four, trial_ends_at, profile_picture, birthday, npn_number, legacy_id, legacy_migration_at, last_login, force_agent_pay, api_key, calendar_sharing_link, company, tax_id, ssn, from_lead_id, has_commissions, skip_billing, full_name, birthday_literal, roles
+buckets | array[24] keys: id, user_id, is_agency, agency_id, name, type, distribution_per_hour, distribution_method, selling_price, allow_transfer, tooltip, click_to_dial_script, hours_until_stale, action_on_stale, deleted_at, created_at, updated_at, delayed_dist_rrg_id, new_agents_daily_limit, legacy_id, legacy_migration_at, stale_lead_action, stale_lead_action_bucket_id, stale_lead_action_user_id, stale_lead_action_rrg_id
+
+=== REPORT-PRODUCTS.JSON ===
+initialFilterDateFrom | string = 2026-03-05
+initialFilterDateTo | string = 2026-03-05
+agents | array[1085] keys: id, first_name, last_name, email, title, address, city, state_id, zip, office_phone, call_forwarding_number, mobile_phone, area_code, sms_number, time_zone, is_active, inactive_at, profile_pic, leader_id, billing_profile_id, email_verified_at, created_at, updated_at, stripe_id, pm_type, pm_last_four, trial_ends_at, profile_picture, birthday, npn_number, legacy_id, legacy_migration_at, last_login, force_agent_pay, api_key, calendar_sharing_link, company, tax_id, ssn, from_lead_id, has_commissions, skip_billing, full_name, birthday_literal, roles
+
+=== REPORT-LAST-LOGIN.JSON ===
+
+=== TEXT INBOX MESSAGE SAMPLE ===
+
+=== MARKETPLACE ENTRY SAMPLE ===
+
+=== BALANCE MANAGEMENT DETAILS ===
+credit_cards: array[0]
+available_credits: string = -50.00
+low_balance_settings: object{1} keys: data
+autoreplenish_payment_settings: object{1} keys: data
+transfers: object{1} keys: data
+
+=== CARRIER DETAIL FIELDS ===
+carrier keys: id, carrier_id, agency_id, has_access, default_mga_id, allow_agents_to_request_contract, agency_notes, created_at, updated_at, carrier
+  id: number = 3215
+  carrier_id: number = 477
+  agency_id: number = 217
+  has_access: number = 1
+  default_mga_id: number = 19
+  allow_agents_to_request_contract: number = 0
+  agency_notes: string (HTML, length=39360)
+  created_at: string = 2025-02-17T15:55:22.000000Z
+  updated_at: string = 2026-03-04T15:53:48.000000Z
+  carrier: object{2} id, carrier
+  carrier.carrier (nested): {"id":477,"carrier":"LIFEX RESEARCH CORP"}
+
+=== AGENCY SETTINGS (56 fields) ===
+id | number | 12
+agency_id | number | 217
+support_person_id | number | 1720
+missed_appt_hours | string | 0
+missed_appt_bucket_id | null
+only_agent_history | number | 0
+require_notes_on_dead | number | 0
+birthday_email_subject | string | Happy Birthday [firstname]
+birthday_email_body | string | <p><span style="font-size: small;"><em><strong>In the words of Burton Hills,</st
+quotesheet_subject | string | Your Customized Health Quotes
+quotesheet_body | string | <p>Hi [firstname]!<br /><br /></p>
+<p>As promised, here are a few plans that I 
+appointment_subject | string | Your Appointment Reminder to discuss your Health Insurance options!
+appointment_body | string | <p><span><em><strong>Hi [firstname],<br /><br /></strong></em></span><em><strong
+currency | string | C
+allow_agent_questionnaire | number | 1
+color_1 | string | #000000
+color_2 | string | #737373
+color_3 | string | #7c8d91
+color_4 | string | #97b1b8
+stripe_public_key | string | [REDACTED_STRIPE_PK]
+stripe_secret_key | string | [REDACTED_STRIPE_SK]
+stripe_webhook_secret_key | string | [REDACTED_STRIPE_WEBHOOK]
+created_at | string | 2024-01-26T23:14:59.000000Z
+updated_at | string | 2026-01-06T18:53:58.000000Z
+default_action_schedule_id | number | 94
+lock_email_templates | number | 0
+lock_text_templates | number | 0
+show_admin_lead_sources | number | 0
+disconnected_phone_noti | string | []
+dead_lead_noti | string | []
+first_agent_sale_noti | string | ["mkrivelow@chcquotes.com"]
+split_sale_noti | string | ["tmosley@chcquotes.com"]
+carrier_contract_request_noti | string | ["tmosley@chcquotes.com"]
+pending_contracting_noti | null
+grace_pulls_enabled | number | 1
+grace_pulls_on_weekends | number | 0
+av_enabled | number | 1
+premium_credits_enabled | number | 0
+rank_by_all_categories | number | 1
+delegate_carrier_product_control | number | 1
+ui_color_1 | null
+ui_color_2 | null
+ui_login_background_color | null
+ui_topbar_background_color | null
+ui_topbar_foreground_color | null
+logo | null
+logo_without_text | null
+use_ui_customizations | number | 0
+agents_visible_on_manage_pa_ids | number | 1
+dashboard_hidden_widgets | null
+hidden_nav_items | null
+bdc_enabled | number | 1
+require_2fa_for_files | number | 0
+auto_update_to_dnc_text | number | 0
+default_agent_form_logo_url | null
+give_credits_for_renewals | number | 0
+
+=== FEATURE FLAGS ===
+{
+  "agent-forms": true
+}
+
+=== UI CUSTOMIZATION ===
+{
+  "color_1": null,
+  "color_2": null,
+  "login_background_color": null,
+  "topbar_background_color": null,
+  "topbar_foreground_color": null,
+  "logo": null,
+  "logo_without_text": null
+}
+
+=== DASHBOARD SPECIFIC ===
+todoLists | array[0]
+todaysNewLeads | array[0]
+user | object{52}: id, first_name, last_name, email, title, address, city, state_id, zip, office_phone
+viewingAgent | object{52}: id, first_name, last_name, email, title, address, city, state_id, zip, office_phone
+tasks_due_through | string = 2026-03-05
+timezone | string = America/Chicago
+widgets | null
+hiddenWidgets | array[0]
+mailTransportInfo | object{1}: data
+
+=== USER ROLES ===
+[
+  {
+    "id": 1,
+    "name": "Agent",
+    "guard_name": "web",
+    "created_at": "2023-08-11T12:14:59.000000Z",
+    "updated_at": "2023-08-11T12:14:59.000000Z",
+    "pivot": {
+      "model_type": "App\\Models\\User",
+      "model_id": 8359,
+      "role_id": 1
+    }
+  }
+]
+
+=== USER SUBSCRIPTION ===
+{
+  "id": 3516,
+  "agency_id": null,
+  "user_id": 8359,
+  "status": "active",
+  "expires_at": "2026-04-01T03:59:59.000000Z",
+  "suspended_at": null,
+  "suspension_override_expires_at": null,
+  "created_at": "2025-09-10T21:17:02.000000Z",
+  "updated_at": "2026-03-01T11:00:53.000000Z"
+}
+
+=== LEAD SOURCES INDEX ===
+leadCategory | string = commercial
+sources | object{3}: data, links, meta
+  data[0] keys: id, vendor, label, lead_type_name, lead_type_id, api_code, cost_per_lead, active, starting_point, action_schedule_id, action_schedule_name, rtb_active, representing_agency
+leadTypes | array[5] keys: id, name, created_at, updated_at
+actionSchedules | array[30] keys: id, agency_id, user_id, is_agency, active, name, working_hours_type, created_at, updated_at, legacy_action_map_id, legacy_migration_at, lead_category
+startingPoints | array[38] keys: id, name
+agents | array[1021] keys: id, name, first_name, last_name
+buckets | array[24] keys: id, user_id, is_agency, agency_id, name, type, distribution_per_hour, distribution_method, selling_price, allow_transfer, tooltip, click_to_dial_script, hours_until_stale, action_on_stale, deleted_at, created_at, updated_at, delayed_dist_rrg_id, new_agents_daily_limit, legacy_id, legacy_migration_at, stale_lead_action, stale_lead_action_bucket_id, stale_lead_action_user_id, stale_lead_action_rrg_id
+search | null
+source_status | null
+
+=== ACTION SCHEDULES ===
+leadCategory | string = commercial
+schedules | object{3}: data, links, meta
+  data[0] keys: id, name, is_agency, active, user_id, includesGracePulls
+search | null
+
+=== AGENTS INDEX ===
+agents | object{3}: data, links, meta
+  data[0] keys: id, name, email, phone, leader_names, balance, total, hst_id, is_active, profile_picture_src
+agents_status | null
+agent[0] keys: id, name, email, phone, leader_names, balance, total, hst_id, is_active, profile_picture_src
+  id: number = 4144
+  name: string = Abbott, Walter
+  email: [REDACTED]
+  phone: string = 3032503546
+  leader_names: string = Mark Hopwood, Mark Hopwood
+  balance: object{5} Credit Purchases, Policy Submission, Imported Credits, Bonus Credits, Total
+  total: string = 0.00
+  hst_id: null
+  is_active: boolean = false
+  profile_picture_src: null
+
+=== SALE LISTING REPORT DETAIL ===
+
+=== LEADS CREATE ===
+states | array[52] keys: id, name
+sources | array[1] keys: id, vendor, label, starting_point_name, timeframe_bad_phone_credit_hr, timeframe_already_purchased_credit_hr, vendor_label
+all_statuses | array[2] keys: id, name, logical_order, created_at, updated_at, lead_category, button_label
+languages | array[8] keys: id, name, created_at, updated_at
+
+=== CALENDAR ===
+user | object{52}: id, first_name, last_name, email, title, address, city, state_id, zip, office_phone
+timezone | string = America/Chicago
+googleAccount | null
+googleConnectedCalendar | null
+googlePendingCalendars | null
+microsoftAccount | null
+microsoftConnectedCalendar | null
+colors | array[18] keys: id, value, label, created_at, updated_at
+viewingSharedCalendar | boolean = false
+
+=== USER SETTINGS ===
+userInfo | object{54}: id, first_name, last_name, email, title, address, city, state_id, zip, office_phone
+userSettings | null
+userAgency | object{29}: id, name, created_at, updated_at, hst_agency, owner_first_name, owner_last_name, phone, email, address
+states | array[52] keys: id, code, name, created_at, updated_at
+timezones | array[7] keys: value, label, timezone_name, offset
+mailTransportInfo | object{1}: data
+agent_own_dnc_key | null
+dnc_key_shared_with_agent | boolean = false
+has_commission_statement | boolean = false
+stripeAccount | object{1}: data
+
+=== EMAIL TEMPLATES ===
+leadCategory | string = commercial
+emailTemplates | object{3}: data, links, meta
+  data[0] keys: id, type, user_id, agency_id, name, subject, body, location, created_at, updated_at, legacy_id, legacy_migration_at, lead_category
+user_is_admin | boolean = false
+can_edit | boolean = true
+search | null
+template[0] keys: id, type, user_id, agency_id, name, subject, body, location, created_at, updated_at, legacy_id, legacy_migration_at, lead_category
+
+=== LEAD RECORD SAMPLE ===
