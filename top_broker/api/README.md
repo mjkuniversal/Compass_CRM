@@ -125,11 +125,11 @@ Every page includes 23 shared props (auth, currentAgency, ziggy, flash, productC
 
 **Crawler**: `TB_EMAIL=x TB_PASSWORD=y node ../crawl.js` captures all page props to `../raw/pages/*.json`.
 
-## Key Observations for hwh-crm
+## Key Observations for woxom-crm
 
 1. **Vendor key pattern** is elegant — each vendor gets a unique key baked into the URL path, no header auth needed for lead POST.
 2. **Consent management** is a first-class concern with dedicated endpoints, including Spanish-language variants and SOA-specific flows.
-3. **Impersonation** has two separate systems (impersonate + login-as), suggesting the feature evolved over time. hwh-crm should unify this.
+3. **Impersonation** has two separate systems (impersonate + login-as), suggesting the feature evolved over time. woxom-crm should unify this.
 4. **Twilio 10DLC** onboarding is deeply integrated — business info, address, and authorized rep collection built into the platform.
 5. **Stripe billing** is tiered — separate subscription flows for agencies, agents, and super-admin, suggesting a multi-tenant SaaS model.
 6. **Shared payload bloat** — 23 props on every page, including the full Ziggy route map. Balance management page sends 9.8MB with 4,986 full user records.

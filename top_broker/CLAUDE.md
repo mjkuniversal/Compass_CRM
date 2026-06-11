@@ -58,7 +58,7 @@ top_broker/
 ## Next Steps
 
 - [ ] Test vendor API with minimal payloads (`POST /api/{vendor_key}/leads`)
-- [ ] Cross-reference with `../hwh-crm/IMPLEMENTATION_PLAN.md`
+- [ ] Cross-reference with `../woxom-crm/IMPLEMENTATION_PLAN.md`
 - [ ] Deep-dive into automation builder (needs admin access)
 - [ ] Capture quotesheet builder UI (no leads to create one from yet)
 
@@ -70,9 +70,17 @@ top_broker/
 - Agent-level account (not admin) — 403 on: agencies, agency_carriers, bob-upload, sale-sharing, lead-redirect, hst-bucket-sync
 - Credentials in env vars only — never in tracked files
 
+## Key Dependencies
+
+<!-- auto:deps generated="2026-03-26" source="package.json" -->
+| Package | Version |
+|---------|---------|
+| playwright | `^1.52.0` |
+<!-- /auto:deps -->
+
 ## Hive Teams
 
 | Team | Lead | Use For |
 |------|------|---------|
 | Research | research-lead | API analysis, data model mapping |
-| Full-Stack | fullstack-lead | Schema comparison with hwh-crm |
+| Full-Stack | fullstack-lead | Schema comparison with woxom-crm |

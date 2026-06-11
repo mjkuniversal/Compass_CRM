@@ -1307,7 +1307,7 @@ Three partial (XHR) Inertia responses were captured, returning only changed prop
 
 ---
 
-## Key Observations for hwh-crm
+## Key Observations for woxom-crm
 
 1. **Massive shared payload**: 23 props on every page, including full `currentAgency` with 56 settings fields. Consider lazy-loading agency settings.
 

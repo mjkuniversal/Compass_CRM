@@ -82,7 +82,7 @@ GHL has no quoting functionality. Possible workarounds:
 
 ### Build vs. Buy Recommendation
 
-**Build** — No existing off-the-shelf product replicates TopBroker's integrated quoting experience across all carriers. Carrier-specific quoting tools exist but don't provide the unified multi-carrier comparison TopBroker offers. This is a strong candidate for `hwh-crm` custom development — a standalone quoting micro-app that integrates with GHL via API. Estimated effort: 4-8 weeks for MVP (plan builder, public link, basic tracking).
+**Build** — No existing off-the-shelf product replicates TopBroker's integrated quoting experience across all carriers. Carrier-specific quoting tools exist but don't provide the unified multi-carrier comparison TopBroker offers. This is a strong candidate for `woxom-crm` custom development — a standalone quoting micro-app that integrates with GHL via API. Estimated effort: 4-8 weeks for MVP (plan builder, public link, basic tracking).
 
 ---
 
@@ -261,7 +261,7 @@ HealthSherpa is used by a large percentage of insurance agents for ACA (Affordab
 **Assess necessity first** — Determine what percentage of the prospect agency's business is ACA. If minimal, manual dual-entry is acceptable. If ACA is a significant portion (>30% of enrollments):
 - **Short term**: Accept manual dual-entry with documented processes
 - **Medium term**: Build a lightweight sync script using HealthSherpa and GHL APIs (if HealthSherpa provides API access). Estimated effort: 2-4 weeks for basic lead sync.
-- **Long term**: Evaluate as part of `hwh-crm` integration roadmap. HWH already has HST credential management patterns in `user-settings/hst-credentials` that could inform the design.
+- **Long term**: Evaluate as part of `woxom-crm` integration roadmap. HWH already has HST credential management patterns in `user-settings/hst-credentials` that could inform the design.
 
 ---
 
@@ -381,7 +381,7 @@ Without these reports, agency managers are flying blind on the metrics that dete
 **Build (phased)** — No off-the-shelf tool provides TopBroker's breadth of insurance reporting. Recommended approach:
 - **Phase 1** (immediate): Use GHL's built-in reporting for pipeline/conversion metrics. Accept limitations.
 - **Phase 2** (weeks 1-4): Build critical reports in Google Data Studio pulling from GHL API: agent performance, lead source analysis, pipeline conversion.
-- **Phase 3** (months 2-3): Build insurance-specific reports as part of `hwh-crm` reporting module: commission tracking (from external commission tool), carrier analysis, geographic breakdown.
+- **Phase 3** (months 2-3): Build insurance-specific reports as part of `woxom-crm` reporting module: commission tracking (from external commission tool), carrier analysis, geographic breakdown.
 - **Phase 4** (months 3-6): Custom report builder with configurable columns/filters, replicating TopBroker's custom reports feature.
 
 HWH's existing `sales-dashboard` project demonstrates the team's capability to build custom reporting. The sales dashboard architecture (Python API + React frontend) could be extended or adapted for prospect-facing reporting.

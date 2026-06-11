@@ -185,7 +185,7 @@ TopBroker supports **multiple policies per lead** (health, dental, ancillary, et
 Do NOT attempt to migrate quotesheets into GHL. Instead:
 1. Archive historical quotesheets as PDFs attached to contacts
 2. Evaluate dedicated insurance quoting tools (e.g., Quotit, HealthSherpa quoting, carrier-specific tools)
-3. Build custom quoting micro-app if volume justifies it (see `hwh-crm` plans)
+3. Build custom quoting micro-app if volume justifies it (see `woxom-crm` plans)
 
 ---
 
@@ -214,8 +214,8 @@ Do NOT attempt to migrate quotesheets into GHL. Instead:
 Commission management MUST be handled outside GHL:
 1. **Spreadsheet-based**: Continue using Excel/Google Sheets for commission processing. Simple but error-prone at scale.
 2. **Dedicated commission tool**: AgentSync, Commissions Inc, or similar insurance commission platforms.
-3. **Custom build**: Part of `hwh-crm` roadmap — build commission module that integrates with GHL contacts via API.
-4. **HWH's current AV calculation** (`e123-data-parsing/skills/parse_to_dealtracker.py → calculate_av()`) could serve as foundation for custom commission logic.
+3. **Custom build**: Part of `woxom-crm` roadmap — build commission module that integrates with GHL contacts via API.
+4. **HWH's current AV calculation** (`woxom-data-parsing/skills/parse_to_dealtracker.py → calculate_av()`) could serve as foundation for custom commission logic.
 
 ---
 

@@ -159,9 +159,9 @@ color_1 | string | #000000
 color_2 | string | #737373
 color_3 | string | #7c8d91
 color_4 | string | #97b1b8
-stripe_public_key | string | [REDACTED_STRIPE_PK]
-stripe_secret_key | string | [REDACTED_STRIPE_SK]
-stripe_webhook_secret_key | string | [REDACTED_STRIPE_WEBHOOK]
+stripe_public_key | string | pk_live_51LG5FHFeV3ulY6bjfAg2ZE2b0FuVNWy4u8ilHdOwojMBWWaBaEvm9Lfc1OZfcEzMDDnLMhX
+stripe_secret_key | string | sk_live_[REDACTED-SECRET-scrubbed-before-publish]
+stripe_webhook_secret_key | string | whsec_[REDACTED-SECRET-scrubbed-before-publish]
 created_at | string | 2024-01-26T23:14:59.000000Z
 updated_at | string | 2026-01-06T18:53:58.000000Z
 default_action_schedule_id | number | 94

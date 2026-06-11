@@ -308,12 +308,12 @@ Entity relationships reverse-engineered from URL routes (1,275) and confirmed vi
 | **Card** | Agent | Payment cards on file |
 | **Credit** | Agent | Lead purchase credits |
 
-## Key Observations for hwh-crm
+## Key Observations for woxom-crm
 
 1. **Lead is the hub** — Nearly every feature connects to leads. The data model is radically lead-centric.
 2. **Bucket abstraction** is powerful — Decouples lead sourcing/purchasing from lead working. 634 buckets, 38 starting points (4 types: assign, text, bucket, RR).
 3. **Quotesheet hierarchy** (Quotesheet -> Plans -> Products -> Bullets) is deep but well-structured. Each level is independently orderable.
-4. **Commission engine** is complex — Multi-level (admin/agency/agent), handles failed/duplicate rows, and has carrier agent ID matching. This is a significant build for hwh-crm.
+4. **Commission engine** is complex — Multi-level (admin/agency/agent), handles failed/duplicate rows, and has carrier agent ID matching. This is a significant build for woxom-crm.
 5. **Recruiting is fully separate** — Own pipeline with 7 statuses (Recruit → Licensed), templates, and tracking. Not mixed with sales leads.
 6. **Round Robin** is a first-class entity, not just a setting — Has its own distribution log, overflow routing, and lead program subscriptions.
 7. **Per-lead campaign control** — Campaigns can be toggled on/off per individual lead, not just globally. This is granular.
